@@ -71,12 +71,19 @@
 
 /*botones index*/
 .button {
-  text-decoration: underline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  text-decoration: none;
 }
 
-.button__send--color {
+.button .button__send--color {
   background-color: #FBC053;
   color: white;
+}
+
+.shadow {
   -webkit-box-shadow: 5px 5px 5px 5px gray;
           box-shadow: 5px 5px 5px 5px gray;
 }
@@ -246,11 +253,13 @@
   opacity: 70%;
 }
 
-/*mapa contacto*/
-.gmaps {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+/*mapa footer*/
+.embed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  border-radius: 3%;
 }
 
 /*catalogo asesoria en Contacto.html*/
@@ -258,6 +267,7 @@
   padding: 25px;
   position: relative;
   width: 100%;
+  margin: 5%;
 }
 
 .catalogo::after {
