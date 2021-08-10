@@ -14,10 +14,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
 
         <!-- META SEO -->
-        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas" >
-
-        <meta name="description" content="Te contamos todo sobre la dieta B.A.R.F para perros y gatos para que mejores su alimentación y salud naturalmente. Aquí encontrarás información, asesorías, recetas y más">
-    
+        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
+        <meta name="description" content="<strong>B.A.R.F</strong> fue creada para brindar información sobre dieta cruda biologicamente apropiada para mantener nuestro compañero animal saludable y feliz.">
         <meta name="ROBOTS" content="INDEX">
         <meta name="language" content="Spanish">
         <meta http-equiv="Contend-Languaje" content="ES">
@@ -32,74 +30,76 @@
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
     
-        <title>Recetas • B.A.R.F</title>
+        <title>¿Qué es? • B.A.R.F</title>
     </head>
+
     <body>
         <header>
-            <!--logo-->
-            <div class="container-fluid">
-                <div class="row">
-                    <a href="../index.html"><img src="../multimedia/logo.png" alt="logo" class="img-fluid mx-auto d-block p-2"></a>
-                </div>
-            </div>    
-        </header>
-        <!--fin logo-->
-    
-        <!--Menú de navegación-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">     
-                <!--Botón-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--para hacer colapsar-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        
-                    <!--items de menú-->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
-    
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
-                            <!--submenu-->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="definicion-barf.html">¿Qué es?</a></li>
-                                <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
-                                <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
-                                </ul>
-                        </li>
-    
-                        <li class="nav-item"><a class="nav-link" href="calculadora-racion.html">¡Calcula la ración!</a></li>
-    
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
-                            <!--submenu-->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
-                                <li><a class="dropdown-item" href="terapia-floral.html">Terapia Floral</a></li>
-                            </ul>
+                <!--menu de navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!--Logo-->
+                    <a class="navbar-brand logo" href="/index.html">
+                        <img src="/multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
+                    </a> <!--Fin logo-->
+
+                    <!--botón submenu-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-botones" aria-controls="navbar-botones" aria-expanded="false" aria-label="abrir submenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Fin botón submenu-->
+                    
+                    <!--Items de navegacion-->
+                    <div class="collapse navbar-collapse" id="navbar-botones">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Inicio</a>
                             </li>
-    
-                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    </ul>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="primerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
+                                <!--Submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="primerDropdown">
+                                    <li><a class="dropdown-item" href="definicion-barf.html">¿Qué es?</a></li>
+                                    <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
+                                    <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
+                                </ul><!--Fin submenu-->
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="calculadora-racion.html">¡Calcula la ración!</a></li>
+
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="segundoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
+                                <!--submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="segundoDropdown">
+                                    <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
+                                    <li><a class="dropdown-item active" aria-current="page" href="#">Terapia floral</a></li>
+                                </ul>
+                            </li>
+                            <!--fin submenu-->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div> <!--Fin items de navegacion-->
                 </div>
-            </div>
-        </nav>
-        <!--Fin menú de navegación-->
+            </nav>
+            <!--Fin menú de navegación-->
+        </header>
 
         <main>
-            <div class="container">
+            <div class="container altura-a-b">
                 <div class="row">
-                    <div class="col-12 p-5">
-                        <img src="../multimedia/zen/portada.jpg" class="img-fluid rounded mx-auto d-block" alt="perro y gato relajados">
+                    <div class="col-12">
+                        <img src="../multimedia/zen/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block gradient-overlay" alt="perro y gato relajados">
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container altura-a-b">
                 <div class="row">
                     <div class="col-12 text">
                         <h2 class="headings">Flores de Bach</h2>
-                        <p class="text">Las flores de Bach son un sistema terapéutico completamente natural que empezó a desarrollarse en el año 1928 por el doctor Edward Bach. Al igual que sucede con la mayoría de terapias alternativas, como la homeopatía, el sistema de flores de Bach considera que la causa originaria de la enfermedad reside en la mente y las emociones, cuando esta primera alteración no se subsana, acaba repercutiendo negativamente sobre el organismo físico.</p>
-                        
-                        <p>Las flores de Bach son extractos de una o varias de las 38 flores que descubrió el doctor Edward Bach. Para que entiendas el funcionamiento de estos extractos debes comprender que no se trata de un extracto común de planta medicinal (como por ejemplo un extracto fluido o una tintura madre), sino que se trata de un extracto altamente diluido, tanto es así que no presenta actividad farmacológica, sino lo que se denomina una actividad energética, actuando así sobre las emociones del animal que las recibe.</p>
+                        <p class="text">Las flores de Bach son un sistema terapéutico natural que empezó a desarrollarse en el año 1928 por el doctor Edward Bach. El sistema de flores de Bach considera que la causa de la enfermedad está en la mente y las emociones y, cuando no se resuelven los conflictos emocionales, acaban repercutiendo negativamente sobre el organismo físico. <br><br>Las flores de Bach son extractos de una o varias de las 38 flores que descubrió el doctor Edward Bach. Para que entiendas el funcionamiento de estos extractos debes comprender que no se trata de un extracto común de planta medicinal (como por ejemplo un extracto fluido o una tintura madre), sino que se trata de un extracto altamente diluido, tanto es así que no presenta actividad farmacológica, sino lo que se denomina una actividad energética, actuando así sobre las emociones del animal que las recibe.</p>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@
                         <p>Muchas personas demandan ensayos clínicos antes de utilizar estas terapias, no obstante, deben saber con anterioridad que al tratarse de sustancias de naturaleza completamente distinta, un remedio de estas características no puede someterse al mismo ensayo clínico que un fármaco. Por ejemplo, se requieren estudios que midan la mejora de los síntomas y no tanto que establezcan un mecanismo de acción que ha de actuar sobre unos determinados receptores celulares.<br><br>Las flores de Bach han mejorado la calidad de vida de numerosas personas y también de sus compañeros animales, ofreciendo una ventaja de gran importancia: resultan completamente inocuas, no presentan efectos secundarios, y pueden aplicarse en cualquier caso pues no interaccionan con medicamentos ni resultan contraproducentes frente a ninguna patología.</p>
                     </div>
                     <div class="col-12 col-md-8">
-                        <img src="../multimedia/zen/bach.jpg" class="img-fluid rounded mx-auto d-block" alt="goteros flores de bach">
+                        <img src="../multimedia/zen/bach.jpg" width="600" height="400" class="img-fluid rounded mx-auto d-block" alt="goteros flores de bach">
                     </div>
                     <div class="col-12 text">
                         <h3>¿Cómo calman a los animales?</h3>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                     
-                    <div class="col-12 ">
+                <div class="row">
                         <div class="col-12">
                             <ol class="list-group list-group-numbered text">
                                 <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -160,34 +160,37 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Redes sociales</h5>
-                    <p></p>
-                    <ul>
-                        <li class="footerText"><a href="https://www.instagram.com/" target="_blank"><img src="../multimedia/footer/instagram.png" alt="Instagram" class="socialItem"></a>Mi Instagram</li>
-                        <li class="footerText"><a href="https://www.facebook.com/" target="_blank"><img src="../multimedia/footer/facebook.png" alt="Facebook" class="socialItem"></a>Mi Facebook</li>
-                        <li class="footerText"><a href="https://www.twitter.com/" target="_blank"><img src="../multimedia/footer/twitter.png" alt="Twitter" class="socialItem"></a>Mi Twitter</li>
-                        <li class="footerText"><a href="https://web.whatsapp.com/" target="_blank"><img src="../multimedia/footer/whatsapp.png" alt="Whatsapp" class="socialItem"></a>Mi Whatsapp</li>
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Redes sociales</h3>
+                    <p class="footerText">Creado por: Rosa Panta</p>
+                    <ul class="socialContainer">
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
+                        <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Newsletter</h5>
+
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Newsletter</h3>
                     <p class="footerText">Suscríbete para recibir más información de nosotros</p>
                     <form>
                         <div class="mb-3">
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-success">Suscribirme</button>
+                        <div class="button col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <h2 class="footerTitles">¿Deseas información de un profesional? </h2>
-                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" class="gmaps d-flex"></iframe>
 
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
+                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
+                        <div class="maps">
+                            <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                         <p class="footerText">
                             Clínica Veterinaria Heyne
                             <br>

@@ -13,85 +13,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
 
-    <!-- META SEO -->
-    <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas" >
+        <!-- META SEO -->
+        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
+        <meta name="description" content="<strong>B.A.R.F</strong> fue creada para brindar información sobre dieta cruda biologicamente apropiada para mantener nuestro compañero animal saludable y feliz.">
+        <meta name="ROBOTS" content="INDEX">
+        <meta name="language" content="Spanish">
+        <meta http-equiv="Contend-Languaje" content="ES">
+        <meta name="city" content="Santiago de Chile">
+        <meta name="country" content="Chile">
+        <meta name="resourse-type" content="Document">
+        <meta name="doc-type" content="Web Page">
+    
+        <!--Linkeo Bootstrap/CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <!--Linkeo CSS local-->
+        <link rel="stylesheet" href="../css/styles.css">
+    
+        <title>¿Qué es? • B.A.R.F</title>
+    </head>
 
-    <meta name="description" content="Te contamos todo sobre la dieta B.A.R.F para perros y gatos para que mejores su alimentación y salud naturalmente. Aquí encontrarás información, asesorías, recetas y más">
+    <body>
+        <header>
+                <!--menu de navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!--Logo-->
+                    <a class="navbar-brand logo" href="/index.html">
+                        <img src="/multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
+                    </a> <!--Fin logo-->
 
-    <meta name="ROBOTS" content="INDEX">
-    <meta name="language" content="Spanish">
-    <meta http-equiv="Contend-Languaje" content="ES">
-    <meta name="city" content="Santiago de Chile">
-    <meta name="country" content="Chile">
-    <meta name="resourse-type" content="Document">
-    <meta name="doc-type" content="Web Page">
-
-    <!--Linkeo Bootstrap/CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!--Linkeo CSS local-->
-    <link rel="stylesheet" href="../css/styles.css">
-
-    <title>Calculadora • B.A.R.F</title>
-</head>
-
-<body>
-    <header>
-        <!--logo-->
-        <div class="container-fluid">
-            <div class="row">
-                <a href="../index.html"><img src="../multimedia/logo.png" alt="logo" class="img-fluid mx-auto d-block p-2"></a>
-            </div>
-        </div>    
-    </header>
-    <!--fin logo-->
-
-    <!--Menú de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid"> 
-            <!--Botón-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--para hacer colapsar-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--botón submenu-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-botones" aria-controls="navbar-botones" aria-expanded="false" aria-label="abrir submenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Fin botón submenu-->
                     
-                <!--items de menú-->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                    <!--Items de navegacion-->
+                    <div class="collapse navbar-collapse" id="navbar-botones">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Inicio</a>
+                            </li>
 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
-                        <!--submenu-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="definicion-barf.html">¿Qué es?</a></li>
-                            <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
-                            <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
-                            </ul>
-                    </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="primerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
+                                <!--Submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="primerDropdown">
+                                    <li><a class="dropdown-item" href="definicion-barf.html">¿Qué es?</a></li>
+                                    <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
+                                    <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
+                                </ul><!--Fin submenu-->
+                            </li>
 
-                    <li class="nav-item"><a class="nav-link" href="calculadora-racion.html">¡Calcula la ración!</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">¡Calcula la ración!</a></li>
 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
-                        <!--submenu-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
-                            <li><a class="dropdown-item" href="terapia-floral.html">Terapia Floral</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="segundoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
+                                <!--submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="segundoDropdown">
+                                    <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
+                                    <li><a class="dropdown-item" href="terapia-floral.html">Terapia floral</a></li>
+                                </ul>
+                            </li>
+                            <!--fin submenu-->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
                         </ul>
-                        </li>
-
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--Fin menú de navegación-->
+                    </div> <!--Fin items de navegacion-->
+                </div>
+            </nav>
+            <!--Fin menú de navegación-->
+        </header>
 
     <main>
         <!--Imagen de portada-->
-        <div class="container">
+        <div class="container altura-a-b">
             <div class="row">
-                <div class="col-12 p-5">
-                    <img src="../multimedia/calculadora/portada.jpg" class="img-fluid rounded mx-auto d-block" alt="ingredientes barf carne cruda">
+                <div class="col-12">
+                    <img src="../multimedia/calculadora/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block gradient-overlay" alt="racionamiento de la dieta">
                 </div>
             </div>
         </div>
@@ -143,6 +144,9 @@
 
         <section class="container">
             <div class="row">
+                <div>
+                    <p class="text">Es muy importante que antes de decidir darle la ración a tu peludo consultes con un veterinario calificado en el tema. Si bien todos los datos suministrados acá sirven de aproximados para iniciar el proceso de transición, es cierto que cada animalito es diferente y tiene necesidades específicas que, si no cumplimos debidamente, pueden llevar a un proceso de enfermedad que se puede evitar con el apoyo adecuado. Teniendo eso en cuenta, te presentamos aqui unos valores estimados de lo que debe conformar la ración de tu peludo, para que vayas haciéndote a una idea de cómo debería ser.</p>
+                </div>
                     <div class="col-12 col-md-6 text">
                         <h3 class="text-center">Porcentajes de ración base</h3>
                         <img src="../multimedia/calculadora/racionbase.png" class="img-fluid rounded mx-auto d-block" alt="infografia porcentajes racion base">
@@ -157,20 +161,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="col-12 text p-5">
-                        <p>Por si has leído las consideraciones previas y las tienes claras, te dejo acá dos video-tutoriales de ración base para que puedas calcular el peso de la ración diaria de tu perro o gato. No olvides fijarte con base a todo lo anterior en los porcentajes de cada producto que debes administrar </p>
+                    <div class="col-12 text">
+                        <p>Por si has leído las consideraciones previas y las tienes claras, te dejo acá dos video-tutoriales hechos por Jessica Da Silva, para que puedas calcular el peso de la ración diaria de tu perro o gato. No olvides fijarte con base a todo lo anterior en los porcentajes de cada producto que debes administrar </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-4 p-3">
-                    <iframe width="390" height="215" src="https://www.youtube.com/embed/s3rGBs7UwhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="row altura-a-b">
+                <div class="col-12 col-sm-6 pb-5">
+                    <iframe width="350" height="290" src="https://www.youtube.com/embed/s3rGBs7UwhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="col-12 col-md-4 p-3">
-                    <iframe width="390" height="215" src="https://www.youtube.com/embed/sS9dI72dRFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-12 col-sm-6 pb-5">
+                    <iframe width="350" height="290" src="https://www.youtube.com/embed/sS9dI72dRFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -180,34 +182,37 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Redes sociales</h5>
-                    <p></p>
-                    <ul>
-                        <li class="footerText"><a href="https://www.instagram.com/" target="_blank"><img src="../multimedia/footer/instagram.png" alt="Instagram" class="socialItem"></a>Mi Instagram</li>
-                        <li class="footerText"><a href="https://www.facebook.com/" target="_blank"><img src="../multimedia/footer/facebook.png" alt="Facebook" class="socialItem"></a>Mi Facebook</li>
-                        <li class="footerText"><a href="https://www.twitter.com/" target="_blank"><img src="../multimedia/footer/twitter.png" alt="Twitter" class="socialItem"></a>Mi Twitter</li>
-                        <li class="footerText"><a href="https://web.whatsapp.com/" target="_blank"><img src="../multimedia/footer/whatsapp.png" alt="Whatsapp" class="socialItem"></a>Mi Whatsapp</li>
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Redes sociales</h3>
+                    <p class="footerText">Creado por: Rosa Panta</p>
+                    <ul class="socialContainer">
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
+                        <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Newsletter</h5>
+
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Newsletter</h3>
                     <p class="footerText">Suscríbete para recibir más información de nosotros</p>
                     <form>
                         <div class="mb-3">
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-success">Suscribirme</button>
+                        <div class="button col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <h2 class="footerTitles">¿Deseas información de un profesional? </h2>
-                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" class="gmaps d-flex"></iframe>
 
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
+                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
+                        <div class="maps">
+                            <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                         <p class="footerText">
                             Clínica Veterinaria Heyne
                             <br>

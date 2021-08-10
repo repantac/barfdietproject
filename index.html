@@ -14,10 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
 
     <!-- META SEO -->
-    <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas" >
-
-    <meta name="description" content="Te contamos todo sobre la dieta B.A.R.F para perros y gatos para que mejores su alimentación y salud naturalmente. Aquí encontrarás información, asesorías, recetas y más">
-
+    <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
+    <meta name="description" content="<strong>B.A.R.F</strong> fue creada para brindar información sobre dieta cruda biologicamente apropiada para mantener nuestro compañero animal saludable y feliz.">
     <meta name="ROBOTS" content="INDEX">
     <meta name="language" content="Spanish">
     <meta http-equiv="Contend-Languaje" content="ES">
@@ -35,159 +33,137 @@
     <title>Inicio • B.A.R.F</title>
 </head>
 <body>
-    <header class="header">
-        <!--logo-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 p-5">
-                    <a href="index.html"><img src="multimedia/logo.png" alt="logo" class="img-fluid mx-auto d-block"></a>
-                </div>
-            </div>
-        </div>    
-    </header>
-    <!--fin logo-->
+    <header>
+    <!--menu de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand logo" href="index.html">
+                <img src="multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
+            </a> <!--Fin logo-->
 
-    <!--Menú de navegación-->
-    <nav class="nav navbar navbar-expand-lg navbar-dark">
-        <div class=" container-fluid"> 
-            <!--Botón-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!--botón submenu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-botones" aria-controls="navbar-botones" aria-expanded="false" aria-label="abrir submenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--para hacer colapsar-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    
-                <!--items de menú-->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <!--Fin botón submenu-->
+            
+            <!--Items de navegacion-->
+            <div class="collapse navbar-collapse" id="navbar-botones">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
-                        <!--submenu-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="primerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
+                        <!--Submenu-->
+                        <ul class="dropdown-menu" aria-labelledby="primerDropdown">
                             <li><a class="dropdown-item" href="pages/definicion-barf.html">¿Qué es?</a></li>
                             <li><a class="dropdown-item" href="pages/beneficios-barf.html">Beneficios</a></li>
                             <li><a class="dropdown-item" href="pages/ingredientes-dieta.html">Ingredientes</a></li>
-                            </ul>
+                        </ul><!--Fin submenu-->
                     </li>
-                    <!--fin submenu-->
 
                     <li class="nav-item"><a class="nav-link" href="pages/calculadora-racion.html">¡Calcula la ración!</a></li>
 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="segundoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
                         <!--submenu-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="segundoDropdown">
                             <li><a class="dropdown-item" href="pages/recetas-dieta.html">Recetas</a></li>
-                            <li><a class="dropdown-item" href="pages/terapia-floral.html">Terapia Floral</a></li>
+                            <li><a class="dropdown-item" href="pages/terapia-floral.html">Terapia floral</a></li>
                         </ul>
                     </li>
                     <!--fin submenu-->
 
-                    <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
                 </ul>
-                <!--fin items de menú-->
-            </div>
+            </div> <!--Fin items de navegacion-->
         </div>
     </nav>
     <!--Fin menú de navegación-->
+    </header>
 
     <main>
         <!--Carrusel-->
-        <div class="container">
+        <section class="container-fluid home">
             <div class="row">
-                <div class="col-12 p-5">
-                    <div id="sliderIndex" class="carousel slide" data-bs-ride="carousel">
-
-                        <!--indicadores del carrusel-->
+                <div class="col-12">
+                    <div id="carrusel-index" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="conecta"></button>
-
-                            <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="1" aria-label="recetas"></button>
-
-                            <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="2" aria-label="terapiaFloral"></button>
+                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="0" class="active" aria-current="true" aria-label="conecta con ellos"></button>
+                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="1" aria-label="encuentra recetas"></button>
+                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="2" aria-label="aprende de terapia floral"></button>
                         </div>
-                        <!--fin indicadores del carrusel-->
-        
-                        <!--imagenes/items carrusel-->
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="multimedia/index/carrusel1.jpg" class="img-fluid mx-auto d-block" alt="perro y gato en naturaleza" width="1000" height="520">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Conecta con ellos</h2>
-                                    <p>a través de la alimentación ancestral</p>
+                                <div class="carousel-item active" style="background-image: url('multimedia/index/carrusel1.jpg')">
+                                    <div class="container">
+                                        <h2>Conecta con ellos</h2>
+                                        <p>a través de la alimentación ancestral</p>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="multimedia/index/carrusel2.jpg" class="img-fluid mx-auto d-block" alt="plato con dieta cruda" width="1000" height="520">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Encuentra recetas</h2>
-                                    <p>que permitan variar la alimentación de tu peludo</p>
+                    
+                                <div class="carousel-item" style="background-image: url('multimedia/index/carrusel2.jpg')">
+                                    <div class="container">
+                                        <h2>Encuentra recetas</h2>
+                                        <p>que le encanten a tu peludo</p>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="multimedia/index/carrusel3.jpg" class="img-fluid mx-auto d-block" alt="gotero de terapia flores de bach" width="1000" height="520">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Aprende las bases</h2>
-                                    <p>de la terapia floral animal.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--imagenes/items carrusel-->
         
-                        <!--botones de control carrusel-->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sliderIndex" data-bs-slide="prev">
+                                <div class="carousel-item" style="background-image: url('multimedia/index/carrusel3.jpg')">
+                                    <div class="container">
+                                        <h2>Aprende</h2>
+                                        <p>sobre terapia floral</p>
+                                    </div>
+                                </div>
+                        </div>
+        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-index" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
+                            <span class="visually-hidden">Ant.</span>
                         </button>
-
-                        <button class="carousel-control-next" type="button" data-bs-target="#sliderindex" data-bs-slide="next">
+        
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-index" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
+                            <span class="visually-hidden">Sig.</span>
                         </button>
-                        <!--botones de control carrusel-->
                     </div>
-    
                 </div>
             </div>
             <!--fin carrusel-->
     
             <!--texto y spotify-->
-            <div class="container">
-                <div class="row pb-4">
+            <div class="container altura-a-b">
+                <div class="row">
                     <div class="col-12 col-md-6 pb-4">
                         <h2 class="headings">Porque no es lo mismo comer que alimentarse...</h2>
     
-                        <p class="text">La nutrición es una parte fundamental del desarrollo y bienestar de nuestro compañero animal, por lo tanto, el tipo de alimentación que queramos ofrecerle es una decisión muy importante que debemos tomar a conciencia.
-                        </p>  
-    
-                        <p class="text">Como el consumo de ultraprocesados ha aumentado la presencia de enfermedades crónicas en los animales domesticos, cada vez somos más las personas que queremos brindarle a nuestras compañeros animales una alimentación natural que sea adecuada para a su especie.
-                        </p>
-    
-                        <p class="text">¿Quieres aprender a mejorar la salud y calidad de vida de tu mejor amigo a través de la alimentación? 
+                        <p class="text">La nutrición es una parte fundamental del desarrollo y bienestar de nuestro compañero animal, por lo tanto, el tipo de alimentación que queramos ofrecerle es una decisión muy importante que debemos tomar a conciencia. <br><br>Como el consumo de ultraprocesados ha aumentado la presencia de enfermedades crónicas en los animales domesticos, cada vez somos más las personas que queremos brindarle a nuestras compañeros animales una alimentación natural que sea adecuada para a su especie. <br><br>¿Quieres aprender a mejorar la salud y calidad de vida de tu mejor amigo a través de la alimentación? 
                         </p>
                         
                         <div class="button col-12 d-flex justify-content-center">
-                            <a class="button btn-lg button__send--color shadow" href="pages/error404.html" role="button">¡Empieza aquí!</a>
+                            <a class="btn btn-lg button__send--color" href="pages/error404.html">Empieza aqui</a>
                         </div>
                     </div>
     
-                    <div class="col-12 col-md-6">
-                        <iframe src="https://open.spotify.com/embed/album/6pbr0ejqaY54brNjt2aqF8" class="embed" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="col-12 col-md-6 p-5">
+                        <iframe title="Lista de musica relajante" src="https://open.spotify.com/embed/album/6pbr0ejqaY54brNjt2aqF8" class="embed" width="90%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!--fin texto y spotify-->
 
         <!--Imagenes con transición.-->
-        <section class="container">
+        <section class="container altura-a-b">
             <div class="row">
-                <div class="col-12 p-5">
+                <div class="col-12">
                     <div class="col-12">
                         <h3 class="text text-center">Aquí encontrarás...</h3>
                     </div>
-                    <section class="col-12" id="imgLine">
+                    <section class="col-12 " id="imgLine">
                         <div class="img-item">
                             <div class="img-bg" style="background-image: url(multimedia/index/animada1.jpg)"></div>
                             <div class="img-title">
@@ -211,10 +187,10 @@
                         <div class="img-item">
                             <div class="img-bg" style="background-image: url(multimedia/index/animada3.jpg)"></div>
                             <div class="img-title">
-                                <h2>Asesorías</h2>
+                                <h2>Asesoría</h2>
                             </div>
                             <div class="img-content">
-                                <p>personalizadas para la transición y mantenimiento de la dieta</p>
+                                <p>personalizada</p>
                             </div>
                         </div>
             
@@ -223,9 +199,8 @@
                             <div class="img-title">
                                 <h2>Apoyo</h2>
                             </div>
-            
                             <div class="img-content">
-                                <p>a través de nuestras redes sociales</p>
+                                <p>a través de las redes sociales</p>
                             </div>
                         </div>
                     </section>
@@ -240,18 +215,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 p-2">
-                    <h5 class="footerTitles">Redes sociales</h5>
+                    <h3 class="footerTitles">Redes sociales</h3>
                     <p class="footerText">Creado por: Rosa Panta</p>
-                    <p></p>
-                    <ul>
-                        <li class="footerText"><a href="https://www.instagram.com/" target="_blank"><img src="multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem"></a>Mi Instagram</li>
-                        <li class="footerText"><a href="https://www.facebook.com/" target="_blank"><img src="multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem"></a>Mi Facebook</li>
-                        <li class="footerText"><a href="https://www.twitter.com/" target="_blank"><img src="multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem"></a>Mi Twitter</li>
-                        <li class="footerText"><a href="https://web.whatsapp.com/" target="_blank"><img src="multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem"></a>Mi Whatsapp</li>
+                    <ul class="socialContainer">
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
+                        <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
                     </ul>
                 </div>
+
                 <div class="col-12 col-md-4 p-2">
-                    <h5 class="footerTitles">Newsletter</h5>
+                    <h3 class="footerTitles">Newsletter</h3>
                     <p class="footerText">Suscríbete para recibir más información de nosotros</p>
                     <form>
                         <div class="mb-3">
@@ -259,15 +234,17 @@
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="button button__send--color btn-lg">Suscribirme</button>
+                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <h2 class="footerTitles">¿Deseas información de un profesional? </h2>
-                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy" class="embed"></iframe>
 
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
+                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
+                        <div class="maps">
+                            <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                         <p class="footerText">
                             Clínica Veterinaria Heyne
                             <br>

@@ -13,11 +13,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
 
-            <!-- META SEO -->
-        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas" >
-
-        <meta name="description" content="Te contamos todo sobre la dieta B.A.R.F para perros y gatos para que mejores su alimentación y salud naturalmente. Aquí encontrarás información, asesorías, recetas y más">
-
+        <!-- META SEO -->
+        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
+        <meta name="description" content="<strong>B.A.R.F</strong> fue creada para brindar información sobre dieta cruda biologicamente apropiada para mantener nuestro compañero animal saludable y feliz.">
         <meta name="ROBOTS" content="INDEX">
         <meta name="language" content="Spanish">
         <meta http-equiv="Contend-Languaje" content="ES">
@@ -29,67 +27,72 @@
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-            <!--Linkeo CSS local-->
-            <link rel="stylesheet" href="../css/styles.css">
+        <!--Linkeo CSS local-->
+        <link rel="stylesheet" href="../css/styles.css">
     
         <title>¿Qué es? • B.A.R.F</title>
     </head>
+
     <body>
         <header>
-            <!--logo-->
-            <div class="container-fluid">
-                <div class="row">
-                    <a href="../index.html"><img src="../multimedia/logo.png" alt="logo" class="img-fluid mx-auto d-block p-2"></a>
-                </div>
-            </div>    
-        </header>
-        <!--fin logo-->
-    
-        <!--Menú de navegación-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid"> 
-                <!--Botón-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--para hacer colapsar-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        
-                    <!--items de menú-->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
-    
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
-                            <!--submenu-->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="definicion-barf.html">¿Qué es?</a></li>
-                                <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
-                                <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
-                                </ul>
-                        </li>
-    
-                        <li class="nav-item"><a class="nav-link" href="calculadora-racion.html">¡Calcula la ración!</a></li>
-    
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
-                            <!--submenu-->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
-                                <li><a class="dropdown-item" href="terapia-floral.html">Terapia Floral</a></li>
-                            </ul>
+                <!--menu de navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!--Logo-->
+                    <a class="navbar-brand logo" href="/index.html">
+                        <img src="/multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
+                    </a> <!--Fin logo-->
+
+                    <!--botón submenu-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-botones" aria-controls="navbar-botones" aria-expanded="false" aria-label="abrir submenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Fin botón submenu-->
+                    
+                    <!--Items de navegacion-->
+                    <div class="collapse navbar-collapse" id="navbar-botones">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Inicio</a>
                             </li>
-    
-                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    </ul>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="primerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dieta B.A.R.F</a>
+                                <!--Submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="primerDropdown">
+                                    <li><a class="dropdown-item active" aria-current="page" href="#">¿Qué es?</a></li>
+                                    <li><a class="dropdown-item" href="beneficios-barf.html">Beneficios</a></li>
+                                    <li><a class="dropdown-item" href="ingredientes-dieta.html">Ingredientes</a></li>
+                                </ul><!--Fin submenu-->
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="calculadora-racion.html">¡Calcula la ración!</a></li>
+
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="segundoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
+                                <!--submenu-->
+                                <ul class="dropdown-menu" aria-labelledby="segundoDropdown">
+                                    <li><a class="dropdown-item" href="recetas-dieta.html">Recetas</a></li>
+                                    <li><a class="dropdown-item" href="terapia-floral.html">Terapia floral</a></li>
+                                </ul>
+                            </li>
+                            <!--fin submenu-->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div> <!--Fin items de navegacion-->
                 </div>
-            </div>
-        </nav>
-        <!--Fin menú de navegación-->
+            </nav>
+            <!--Fin menú de navegación-->
+        </header>
+
 
         <main>
-            <div class="container">
+            <div class="container altura-a-b">
                 <div class="row">
-                    <div class="col-12 p-5">
-                        <img src="../multimedia/definicion/portada.jpg" class="img-fluid rounded mx-auto d-block" alt="plato alimentacion barf y plato de croquetas">
+                    <div class="col-12">
+                        <img src="../multimedia/definicion/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block gradient-overlay" alt="plato alimentacion barf y plato de croquetas">
                     </div>
                 </div>
             </div>
@@ -101,22 +104,19 @@
                         <p class="text">La dieta B.A.R.F (Biologically Appropiate Raw Food) es un modelo alternativo de alimentación natural para carnívoros domésticos biológicamente adecuado para ellos. Se basa en eliminar por completo los productos procesados del mercado y reemplazarlos con carnes, huesos y órganos crudos, así como frutas, vegetales y suplementos  saludables de vitaminas, ácidos grasos esenciales, probióticos, algas marinas, hierbas, etc.</p>
                     </div>
                 </div>
-            </section>
-    
-            <section class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="text">Tu peludo no está diseñado para comer concentrado...</h3>
-                        <p class="text">Los perros son carnívoros facultativos (o sea que pueden variar su dieta por corto tiempo si no encuentran presas vivas), mientras que los gatos son carnívoros estrictos. Los carnívoros (incluídos los perros y gatos) no tienen cuerpos preparados para obtener y asimilar los nutrientes que necesitan para su desarrollo a partir de alimentos secos y de origen vegetal, como los que contienen los productos procesados de bolsa. <br>Mientras que sus piezas dentales están hechas para atrapar y triturar presas vivas, su sistema digestivo está hecho para digerirlas; por un lado, la acidez de su estómago es tan alta que permite descomponer las carnes y huesos sin riesgo alguno de una contaminación por bacterias que perjudique su salud. Por otra parte, su estómago es pequeño y los intestinos son cortos, ayudando a una rápida absorcion de nutrientes y eliminación minima de los desechos del alimento. <br><br>Por eso, la idea de la dieta B.A.R.F es imitar la alimentación ancestral que la especie consuma lo más posible, donde la composición de la ración sea lo mas similar posible a las presas enteras que sus ancestros cazan en la naturaleza, con el objetivo es mejorar su salud y calidad de vida general drásticamente a partir de la alimentación, y reducir así la necesidad de la intervención de veterinarios por enfermedades prevenibles.</p>
-                    </div>
-                    <div>
-                        <h3 class="text">Un poco de historia...</h3>
-                        <p class="text">El primer acercamiento a la dieta B.A.R.F como la conocemos hoy en día lo tuvo el médico veterinario Wendell O. Belfield quién, tras décadas de investigación, fue pionero en la promoción de la alimentación saludable para mascotas, destacando la importancia de las vitaminas y minerales en la alimentación para una buena salud en 1981. <br>El trabajo de Belfield sirvió como apoyo para el cirujano veterinario australiano Ian Billinghurst, quién a finales de la década de los 80 comenzó a observar la relación las enfermedades que sufrían sus pacientes y la alimentación que llevaban. Dedujo que los animales de la ciudad alimentados con croquetas ultraprocesadas sufrían más enfermedades a nivel renal y hepático que luego pasaban a través de la genética a las generaciones futuras, mientras que los animales del campo alimentados con comida natural llevaban vidas más sanas y largas. Y apartir de esos estudios determinó que la dieta natural es el único camino para mantener una salud adecuada en las distintas especies animales domésticas, así como en los humanos, y en años posteriores publicó tres libros que te recomendamos ampliamente leer si deseas más información: Give your dog a bone (1993), Grow your pups with bones (1998) y The B.A.R.F diet (2001).</p>
-                    </div>
+
+                <div class="text">
+                    <h3>Tu peludo no está diseñado para comer concentrado...</h3>
+                    <p>Los perros son carnívoros facultativos (o sea que pueden variar su dieta por corto tiempo si no encuentran presas vivas), mientras que los gatos son carnívoros estrictos. Los carnívoros (incluídos los perros y gatos) no tienen cuerpos preparados para obtener y asimilar los nutrientes que necesitan para su desarrollo a partir de alimentos secos y de origen vegetal, como los que contienen los productos procesados de bolsa. <br>Mientras que sus piezas dentales están hechas para atrapar y triturar presas vivas, su sistema digestivo está hecho para digerirlas; por un lado, la acidez de su estómago es tan alta que permite descomponer las carnes y huesos sin riesgo alguno de una contaminación por bacterias que perjudique su salud. Por otra parte, su estómago es pequeño y los intestinos son cortos, ayudando a una rápida absorcion de nutrientes y eliminación minima de los desechos del alimento. <br><br>Por eso, la idea de la dieta B.A.R.F es imitar la alimentación ancestral que la especie consuma lo más posible, donde la composición de la ración sea lo mas similar posible a las presas enteras que sus ancestros cazan en la naturaleza, con el objetivo es mejorar su salud y calidad de vida general drásticamente a partir de la alimentación, y reducir así la necesidad de la intervención de veterinarios por enfermedades prevenibles.</p>
+                </div>
+
+                <div class="text">
+                    <h3>Un poco de historia...</h3>
+                    <p>El primer acercamiento a la dieta B.A.R.F como la conocemos hoy en día lo tuvo el médico veterinario Wendell O. Belfield quién, tras décadas de investigación, fue pionero en la promoción de la alimentación saludable para mascotas, destacando la importancia de las vitaminas y minerales en la alimentación para una buena salud en 1981. <br>El trabajo de Belfield sirvió como apoyo para el cirujano veterinario australiano Ian Billinghurst, quién a finales de la década de los 80 comenzó a observar la relación las enfermedades que sufrían sus pacientes y la alimentación que llevaban. Dedujo que los animales de la ciudad alimentados con croquetas ultraprocesadas sufrían más enfermedades a nivel renal y hepático que luego pasaban a través de la genética a las generaciones futuras, mientras que los animales del campo alimentados con comida natural llevaban vidas más sanas y largas. Y apartir de esos estudios determinó que la dieta natural es el único camino para mantener una salud adecuada en las distintas especies animales domésticas, así como en los humanos, y en años posteriores publicó tres libros que te recomendamos ampliamente leer si deseas más información: Give your dog a bone (1993), Grow your pups with bones (1998) y The B.A.R.F diet (2001).</p>
                 </div>
             </section>
     
-            <div class="container">
+            <div class="container altura-a-b">
                 <div class="row">
                     <div class="col-12">
                         <img src="../multimedia/definicion/rawdog.jpg" class="img-fluid rounded mx-auto d-block" alt="perro recibiendo plato con dieta barf">
@@ -129,34 +129,37 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Redes sociales</h5>
-                    <p></p>
-                    <ul>
-                        <li class="footerText"><a href="https://www.instagram.com/" target="_blank"><img src="../multimedia/footer/instagram.png" alt="Instagram" class="socialItem"></a>Mi Instagram</li>
-                        <li class="footerText"><a href="https://www.facebook.com/" target="_blank"><img src="../multimedia/footer/facebook.png" alt="Facebook" class="socialItem"></a>Mi Facebook</li>
-                        <li class="footerText"><a href="https://www.twitter.com/" target="_blank"><img src="../multimedia/footer/twitter.png" alt="Twitter" class="socialItem"></a>Mi Twitter</li>
-                        <li class="footerText"><a href="https://web.whatsapp.com/" target="_blank"><img src="../multimedia/footer/whatsapp.png" alt="Whatsapp" class="socialItem"></a>Mi Whatsapp</li>
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Redes sociales</h3>
+                    <p class="footerText">Creado por: Rosa Panta</p>
+                    <ul class="socialContainer">
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
+                        <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="/multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4">
-                    <h5 class="footerTitles">Newsletter</h5>
+
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">Newsletter</h3>
                     <p class="footerText">Suscríbete para recibir más información de nosotros</p>
                     <form>
                         <div class="mb-3">
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-success">Suscribirme</button>
+                        <div class="button col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <h2 class="footerTitles">¿Deseas información de un profesional? </h2>
-                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" class="gmaps d-flex"></iframe>
 
+                <div class="col-12 col-md-4 p-2">
+                    <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
+                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
+                        <div class="maps">
+                            <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                         <p class="footerText">
                             Clínica Veterinaria Heyne
                             <br>

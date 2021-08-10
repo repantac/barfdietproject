@@ -1,22 +1,40 @@
 .footer {
     background-color:#484852;
     padding: 5px;
-    margin-top: 100px;
     color: $colorContrast;
-        .footerTitles {
-            font-family: 'Quicksand', sans-serif;
-            font-size: 18px;
-            text-align: center;
-            color: $colorTitle;
-            padding: 10px;
-            text-decoration: underline 3px;
-                .footerText {
-                    font-family: 'Raleway', sans-serif;
-                    color: $colorContrast;
-                    text-align: justify;
-                        .socialItem {
-                            padding: 5px;
-                        }
-                }
-        }
+
+    .maps {
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        padding: 10px;
+        border-radius: 3%;
+    }
+
+    .footerTitles {
+        font-family: $fontTitle;
+        font-size: 1rem;
+        text-align: center;
+        color: $colorTitle;
+        padding: 10px;
+        text-decoration: underline 3px;
+    }
+
+    .footerText {
+        font-family: $fontText;
+        color: $colorContrast;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .socialContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialItem {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+    }
 }
