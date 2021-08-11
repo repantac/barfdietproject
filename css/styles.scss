@@ -162,7 +162,7 @@ $fontText: 'Raleway', sans-serif;
 /*titulos y texto*/
 .headings {
     font-family: $fontTitle;
-    font-size: 2em;
+    font-size: 2rem;
     color: $colorTitle;
     text-align: center;
 }
@@ -429,3 +429,28 @@ $fontText: 'Raleway', sans-serif;
     text-align: center;
 }
 /*Fin error 404*/
+
+/*Cards terapia floral*/
+
+.card {
+  background: linear-gradient(180deg, #eeffd1 0, #e0ffcf 12.5%, #ceffca 25%, #b8fec3 37.5%, #9df2b9 50%, #80e6b1 62.5%, #64dcac 75%, #47d5ac 87.5%, #21d0af 100%);
+  border: transparent;
+}
+.cardHeading {
+  font-family: $fontTitle;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+}
+
+.cardText {
+  font-family: $fontText;
+  color: black;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.card-button {
+  font-size: 0.8rem;
+
+}

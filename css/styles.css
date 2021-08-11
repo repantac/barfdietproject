@@ -256,7 +256,7 @@
 /*titulos y texto*/
 .headings {
   font-family: "Quicksand", sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   color: #FBC053;
   text-align: center;
 }
@@ -564,4 +564,28 @@
 }
 
 /*Fin error 404*/
+/*Cards terapia floral*/
+.card {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeffd1), color-stop(12.5%, #e0ffcf), color-stop(25%, #ceffca), color-stop(37.5%, #b8fec3), color-stop(50%, #9df2b9), color-stop(62.5%, #80e6b1), color-stop(75%, #64dcac), color-stop(87.5%, #47d5ac), to(#21d0af));
+  background: linear-gradient(180deg, #eeffd1 0, #e0ffcf 12.5%, #ceffca 25%, #b8fec3 37.5%, #9df2b9 50%, #80e6b1 62.5%, #64dcac 75%, #47d5ac 87.5%, #21d0af 100%);
+  border: transparent;
+}
+
+.cardHeading {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+}
+
+.cardText {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.card-button {
+  font-size: 0.8rem;
+}
 /*# sourceMappingURL=styles.css.map */
