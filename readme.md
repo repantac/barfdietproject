@@ -1,4 +1,4 @@
-# barfdietproject
+# B.A.R.F Diet project
 
 ****Proyecto: B.A.R.F "Aliméntalos naturalmente"****
 
