@@ -1,0 +1,27 @@
+/*Menú de navegación*/
+.navbar {
+    background-color: $colorHead;
+    box-shadow: 0 0 10px $colorshadow;
+}
+.dropdown-menu {
+    background-color: $colorHead;
+
+}
+.nav-item, .dropdown-item {
+    font-family: $fontTitle;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: $colorContrast;
+    padding: 5px;
+    margin: 5px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: $colorTitle;
+    text-decoration: none;
+    background-color: transparent;
+    }
+    
+    .dropdown-item:hover {
+    background-color: transparent;
+    }
+/*fin menu de navegación*/

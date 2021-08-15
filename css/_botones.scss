@@ -1,0 +1,13 @@
+/*botones */
+.button {
+    display: flex;
+    place-content: center;
+    text-decoration: none;
+    
+    .button__send--color {
+        background-color: $colorTitle;
+        color:$colorContrast;
+        box-shadow: $sombra
+    }
+}
+/*botones index*/
