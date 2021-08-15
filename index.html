@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <!--Logo-->
-            <a class="navbar-brand logo" href="index.html">
+            <a class="navbar-brand" href="index.html">
                 <img src="multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
             </a> <!--Fin logo-->
 
@@ -79,6 +79,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="pages/contacto.html">Contacto</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a type="button" class="btn btn-primary" href="pages/asesorias.html">Asesorías</a>
+                    </li>
                 </ul>
             </div> <!--Fin items de navegacion-->
         </div>
@@ -88,53 +92,49 @@
 
     <main>
         <!--Carrusel-->
-        <section class="container-fluid home">
-            <div class="row">
-                <div class="col-12">
-                    <div id="carrusel-index" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="0" class="active" aria-current="true" aria-label="conecta con ellos"></button>
-                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="1" aria-label="encuentra recetas"></button>
-                            <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="2" aria-label="aprende de terapia floral"></button>
-                        </div>
-                        <div class="carousel-inner">
-                                <div class="carousel-item active" style="background-image: url('multimedia/index/carrusel1.jpg')">
-                                    <div class="container">
-                                        <h2>Conecta con ellos</h2>
-                                        <p>a través de la alimentación ancestral</p>
-                                    </div>
-                                </div>
-                    
-                                <div class="carousel-item" style="background-image: url('multimedia/index/carrusel2.jpg')">
-                                    <div class="container">
-                                        <h2>Encuentra recetas</h2>
-                                        <p>que le encanten a tu peludo</p>
-                                    </div>
-                                </div>
-        
-                                <div class="carousel-item" style="background-image: url('multimedia/index/carrusel3.jpg')">
-                                    <div class="container">
-                                        <h2>Aprende</h2>
-                                        <p>sobre terapia floral</p>
-                                    </div>
-                                </div>
-                        </div>
-        
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-index" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Ant.</span>
-                        </button>
-        
-                        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-index" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Sig.</span>
-                        </button>
-                    </div>
-                </div>
+        <div id="carrusel-index" class="carousel slide home" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="0" class="active" aria-current="true" aria-label="conecta con ellos"></button>
+                <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="1" aria-label="encuentra recetas"></button>
+                <button type="button" data-bs-target="#carrusel-index" data-bs-slide-to="2" aria-label="aprende de terapia floral"></button>
             </div>
-            <!--fin carrusel-->
+            <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('multimedia/index/carrusel1.jpg')">
+                        <div class="container">
+                            <h2>Conecta con ellos</h2>
+                            <p>a través de la alimentación ancestral</p>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item" style="background-image: url('multimedia/index/carrusel2.jpg')">
+                        <div class="container">
+                            <h2>Encuentra recetas</h2>
+                            <p>que le encanten a tu peludo</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background-image: url('multimedia/index/carrusel3.jpg')">
+                        <div class="container">
+                            <h2>Aprende</h2>
+                            <p>sobre terapia floral</p>
+                        </div>
+                    </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-index" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Ant.</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-index" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sig.</span>
+            </button>
+        </div>
+        <!--fin carrusel-->
     
-            <!--texto y spotify-->
+        <!--texto y spotify-->
+        <section>
             <div class="container altura-a-b">
                 <div class="row">
                     <div class="col-12 col-md-6 pb-4">
