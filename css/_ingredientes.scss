@@ -1,6 +1,13 @@
 /*Acordeon*/
 .accordion-button {
-    background-color: $colorHead;
-    opacity: 70%;
-  }
-  /*Fin acordeon*/
+  background: $colorHead;
+  font-family: $fontTitle;
+  font-size: 1.5rem;
+  color: $colorContrast;
+}
+
+.accordion-button:not(.collapsed) {
+  font-size: 1.5rem;
+  color: $colorContrast;
+}
+/*Fin acordeon*/

@@ -26,6 +26,9 @@
     
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
@@ -80,6 +83,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
+
+                            <li class="nav-item animate__animated animate__headShake animate__infinite">
+                                <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
+                            </li>
                         </ul>
                     </div> <!--Fin items de navegacion-->
                 </div>
@@ -88,18 +95,20 @@
         </header>
 
         <main>
-            <div class="container altura-a-b">
+            <!--Imagen de portada-->
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <img src="../multimedia/zen/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block gradient-overlay" alt="perro y gato relajados">
+                    <div class="col-12 coverImage-6">
+                        <h1>Terapia floral</h1>
                     </div>
                 </div>
             </div>
+            <!--fin de imagen de portada-->
+
 
             <div class="container altura-a-b">
                 <div class="row">
                     <div class="col-12 text">
-                        <h2 class="headings">Flores de Bach</h2>
                         <p>Las <strong>flores de Bach</strong> son un complemento ideal cuando estás iniciando el cambio a una alimentación más natural para tu peludo, especialmente si es un gatito. Mientras los perros suelen adaptarse sin mucha dificultad a la alimentación que se les presenta, los gatos son <strong>neofóbicos</strong>, o sea que su respuesta inmediata puede ser miedo y rechazo a cualquier cambio en su rutina, incluyendo su alimentación (sí, incluso si son para mejor). Además, durante la transición pueden experimentar pesadez, constipación o alergias generando ansiedad (igual que nosotros), y si hay convivencia entre varios animales se podría ver afectada la dinámica entre ellos por la misma ansiedad. Es ahí cuando utilizar las flores de Bach para aliviar los niveles de estrés de nuestros peludos.</p>
                     </div>
 
@@ -109,7 +118,7 @@
                         </div>
 
                         <div class="col-12 col-md-4">
-                            <img src="../multimedia/zen/bach.jpg" width="450" height="100" class="img-fluid rounded mx-auto d-block" alt="goteros flores de bach">
+                            <img src="../multimedia/zen/bach.jpg" width="400" height="100" class="img-fluid rounded mx-auto d-block" alt="goteros flores de bach">
                         </div>
 
                         <div class="col-12 text">
@@ -121,10 +130,10 @@
             </div>
         
 
-        <section class="container altura-a-b">
+        <section class="container ">
             <div class="row p-5"><!--Primera fila-->
                 <!--card 1-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/agrimony.jpg" width="400" height="200" class="card-img-top" alt="Rescue Remedy">
                         
@@ -148,7 +157,7 @@
                 <!--Fin card 1-->
 
                 <!--Card 2-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/white-chesnut.jpg" width="400" height="200" class="card-img-top" alt="Nuez blanca">
                         <div class="card-body">
@@ -171,7 +180,7 @@
                 <!--Fin card 2-->
 
                 <!--Card 3-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/mimulus.jpg" width="400" height="200" class="card-img-top" alt="Mimulus">
                         <div class="card-body">
@@ -197,7 +206,7 @@
             <!--Segunda fila-->
             <div class="row p-5">
                 <!--Card 1-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/aspen.jpg" width="400" height="200" class="card-img-top" alt="Alamo">
                         <div class="card-body">
@@ -219,7 +228,7 @@
                 </div>
 
                 <!--Card 2-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/vervain.jpg" width="400" height="200" class="card-img-top" alt="Verbena">
                         <div class="card-body">
@@ -241,7 +250,7 @@
                 </div>
     
                 <!--Card 3-->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 p-3">
                     <article class="card p-2">
                         <img src="../multimedia/zen/agrimony.jpg" width="400" height="200" class="card-img-top" alt="Agrimonia">
                         <div class="card-body">
@@ -288,8 +297,8 @@
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
                         </div>
                     </form>
                 </div>

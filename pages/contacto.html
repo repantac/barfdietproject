@@ -26,6 +26,9 @@
     
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
@@ -80,6 +83,10 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                             </li>
+
+                            <li class="nav-item animate__animated animate__headShake animate__infinite">
+                                <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
+                            </li>
                         </ul>
                     </div> <!--Fin items de navegacion-->
                 </div>
@@ -89,123 +96,81 @@
 
         <main>
             <!--Imagen de portada-->
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 p-5">
-                        <img src="../multimedia/contacto/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block" alt="gato en naturaleza">
+                    <div class="col-12 coverImage-7">
+                        <h1>Terapia floral</h1>
                     </div>
                 </div>
             </div>
-            <!--fin imagen de portada-->
+            <!--fin de imagen de portada-->
 
-            <!--inicio precios asesoria-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="catalogo text">
-                                <div class="col-12">
-                                    <h2 class="headings">¿Te interesa una asesoría personalizada?</h2>
-                                </div>
-                                <div class="panel precios-tabla">
-                                    <div class="precios-plan">
-                                        <img src="../multimedia/contacto/foodicon.png" alt="plan de comida" width="120" height="120" class="precios-img">
-                                        <h2 class="precio-header">Plan de alimentación</h2>
-                                        <ul class="precio-cualidades">
-                                            <li class="precio-cualidades-item">Consulta 10 minutos para conocer a tu peludo</li>
-                                            <li class="precio-cualidades-item">Creamos juntos un plan de alimentación</li>
-                                            <li class="precio-cualidades-item">Ajustes al plan 1 mes después</li>
-                                        </ul>
-                                        <span class="precio-p">$8000</span>
-                                        <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
-                                    </div>
-                                        
-                                    <div class="precios-plan">
-                                        <img src="../multimedia/contacto/fullplan.png" alt="plan completo" width="120" height="120" class="precios-img">
-                                        <h2 class="precio-header">Plan <br> completo</h2>
-                                        <ul class="precio-cualidades">
-                                            <li class="precio-cualidades-item">Revisión médica a domicilio de 1 hora</li>
-                                            <li class="precio-cualidades-item">Creamos juntos un plan de alimentación</li>
-                                            <li class="precio-cualidades-item">Dos consultas de control</li>
-                                        </ul>
-                                        <span class="precio-p">$20000</span>
-                                        <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
-                                    </div>
-                                        
-                                    <div class="precios-plan">
-                                        <img src="../multimedia/contacto/pplan.png" alt="plan premium" width="120" height="120" class="precios-img">
-                                        <h2 class="precio-header">Plan <br> premium</h2>
-                                        <ul class="precio-cualidades">
-                                            <li class="precio-cualidades-item">Todo lo que recibes del plan completo</li>
-                                            <li class="precio-cualidades-item">Acompañamiento diario por whatsapp</li>
-                                            <li class="precio-cualidades-item">Regalo sorpresa</li>
-                                        </ul>
-                                        <span class="precio-p">$30000</span>
-                                        <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+
+            <!--Formulario-->
+            <section class="container altura-a-b">
+                <div class="row">
+                    <div class="col-12 p-5">
+                            <h2 class="headings">¿Podemos ayudarte en algo?</h2>
                     </div>
-                    <!--fin precios asesoria-->
-
-                    <!--Formulario-->
-                    <section class="container altura-a-b w-50">
-                        <div class="row">
+                    <div class="col-12 col-md-6 p-5">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Juan">
+                            </div>
+    
+                            <div class="col-md-6">
+                                <label class="form-label">Apellido</label>
+                                <input type="text" class="form-control" placeholder="Perez">
+                            </div>
+    
+                            <div class="col-md-12">
+                                <label class="form-label">E-mail</label>
+                                <input type="email" class="form-control" placeholder="Aqui va tu email">
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">Tienes un...</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Escoge...</option>
+                                        <option>Perro</option>
+                                        <option>Gato</option>
+                                        <option>Hurón</option>
+                                </select>
+                            </div>
+    
+                            <div class="col-12"> 
+                                <label class="form-label">Es...</label>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Menor de un año</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Mayor de 8 años</label>
+                                </div>
+                            </div>
+    
                             <div class="col-12">
-                                <h2 class="headings">¿Podemos ayudarte en algo?</h2>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="comentario-aqui" id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Cuéntanos ¿qué necesitas?...</label>
+                                </div>
                             </div>
-
-                            <form class="row g-3 background">
-                                    <div class="col-md-6">
-                                        <label class="form-label">Nombre</label>
-                                        <input type="text" class="form-control" placeholder="Juan">
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <label class="form-label">Apellido</label>
-                                        <input type="text" class="form-control" placeholder="Perez">
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <label class="form-label">E-mail</label>
-                                        <input type="email" class="form-control" placeholder="Aqui va tu email">
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <label for="inputState" class="form-label">Tienes un...</label>
-                                        <select id="inputState" class="form-select">
-                                            <option selected>Escoge...</option>
-                                                <option>Perro</option>
-                                                <option>Gato</option>
-                                                <option>Hurón</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-12"> 
-                                        <label class="form-label">Es...</label>
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input" type="checkbox">
-                                            <label class="form-check-label" for="flexSwitchCheckDefault">Menor de un año</label>
-                                        </div>
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input" type="checkbox">
-                                            <label class="form-check-label" for="flexSwitchCheckDefault">Mayor de 8 años</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="comentario-aqui" id="floatingTextarea"></textarea>
-                                            <label for="floatingTextarea">Cuéntanos ¿qué necesitas?...</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 col-md-6s text-center p-3">
-                                        <button type="button" class="btn btn-success btn-lg">Enviar</button>
-                                    </div>
-                                </form>
+    
+                            <div class="col-12 col-md-6s text-center p-3">
+                                <button type="button" class="btn btn-success btn-lg">Enviar</button>
                             </div>
-                <!--fin del formulario-->
-                </section>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-md-6 p-5">
+                        <img src="../multimedia/contacto/dogmail.png" alt="perro con sobre de mail">
+                    </div>
+                </div>
+        <!--fin del formulario-->
+            </section>
         </main>
 
 
@@ -232,8 +197,8 @@
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
                         </div>
                     </form>
                 </div>

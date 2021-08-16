@@ -26,6 +26,9 @@
     
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
@@ -80,6 +83,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
+
+                            <li class="nav-item animate__animated animate__headShake animate__infinite">
+                                <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
+                            </li>
                         </ul>
                     </div> <!--Fin items de navegacion-->
                 </div>
@@ -88,18 +95,19 @@
         </header>
 
         <main>
-            <div class="container altura-a-b">
+            <!--Imagen de portada-->
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <img src="../multimedia/recetas/portada.jpg" width="1024" height="587" class="img-fluid rounded mx-auto d-block gradient-overlay" alt="plato de pollo crudo y frutas">
+                    <div class="col-12 coverImage-5">
+                        <h1>Recetas</h1>
                     </div>
                 </div>
             </div>
+            <!--fin de imagen de portada-->
 
-            <section class="container">
+            <section class="container altura-a-b">
                 <div class="row">
                     <div class="col-12 text">
-                        <h2 class="headings">Recetas</h2>
                         <p>Las recetas que se proporcionan aquí varían desde comidas balanceadas hasta opciones de alimentación suplementaria. Cada receta equilibrada utiliza carne, huesos y órganos crudos. 
                         <br>
                         Las recetas de suplementos se crean para agregarlas a las dietas crudas existentes y no deben administrarse como una comida independiente. Estas recetas no proporcionan todos los nutrientes esenciales y no pueden servir como una dieta independiente; pero se puede utilizar para complementar una dieta equilibrada o para equilibrar una dieta cruda.</p>
@@ -107,62 +115,63 @@
                 </div>
             </section>
 
-            <section class="container">
+            <!--Cards-->
+            <section class="container p-5">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text text-center">Opciones de Menú</h3>
+                        <h3 class="headings text-center">Opciones de Menú</h3>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <article class="card p-2">
+                    <div class="col-12 col-sm-6 col-md-3 p-3">
+                        <article class="card">
                             <img src="../multimedia/recetas/menusalmon.jpg" width="400" height="200" class="card-img-top" alt="menú de salmón">
         
                             <div class="card-body">
                                 <h5 class="cardHeading">Menú de salmón</h5>
                                 <div class="col-12 d-flex justify-content-center p-2">
-                                    <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                    <a href="" target="_blank" class="btn button">Ver receta</a>
                                 </div>
                             </div>
                         </article>
                     </div>
                 
 
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <article class="card p-2">
+                    <div class="col-12 col-sm-6 col-md-3 p-3">
+                        <article class="card">
                             <img src="../multimedia/recetas/menupato.jpg" width="400" height="200" class="card-img-top" alt="menú de pato">
             
                             <div class="card-body">
                                 <h5 class="cardHeading">Menú de pato</h5>
                                 <div class="col-12 d-flex justify-content-center p-2">
-                                    <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                    <a href="" target="_blank" class="btn  button">Ver receta</a>
                                 </div>  
                             </div>
                         </article>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <article class="card p-2">
+                    <div class="col-12 col-sm-6 col-md-3 p-3">
+                        <article class="card">
                             <img src="../multimedia/recetas/menuternera.jpg" width="400" height="200" class="card-img-top" alt="menú de ternera">
 
                             <div class="card-body">
                                 <h5 class="cardHeading">Menú de ternera</h5>
                                 <div class="col-12 d-flex justify-content-center p-2">
-                                    <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                    <a href="" target="_blank" class="btn button">Ver receta</a>
                                 </div>
                             </div>
                         </article>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <article class="card p-2">
-                            <img src="../multimedia/recetas/menupollo.jpg" width="400" height="200" class="card-img-top p-1" alt="menú de pollo">
+                    <div class="col-12 col-sm-6 col-md-3 p-3">
+                        <article class="card">
+                            <img src="../multimedia/recetas/menupollo.jpg" width="400" height="200" class="card-img-top" alt="menú de pollo">
 
                             <div class="card-body">
                                 <h5 class="cardHeading">Menú de pollo</h5>
                                 <div class="col-12 d-flex justify-content-center p-2">
-                                    <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                    <a href="" target="_blank" class="btn button">Ver receta</a>
                                 </div>
                             </div>
                         </article>
@@ -170,61 +179,61 @@
                 </div>
             </section>
 
-            <section class="container altura-a-b">
+            <section class="container altura-a-b p-5">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="text text-center">Suplementos y complementos</h3>
+                            <h3 class="headings text-center">Suplementos y complementos</h3>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-3">
-                            <article class="card p-2">
-                                <img src="../multimedia/recetas/kefiragua.jpg" width="400" height="200" class="card-img-top p-1" alt="kefir de agua">
+                        <div class="col-12 col-sm-6 col-md-3 p-3">
+                            <article class="card">
+                                <img src="../multimedia/recetas/kefiragua.jpg" width="400" height="200" class="card-img-top" alt="kefir de agua">
 
                                 <div class="card-body">
                                     <h5 class="cardHeading">Kefir de agua</h5>
                                     <div class="col-12 d-flex justify-content-center p-2">
-                                        <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                        <a href="" target="_blank" class="btn button">Ver receta</a>
                                     </div>
                                 </div>
                             </article>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-3">
-                            <article class="card p-2">
-                                <img src="../multimedia/recetas/caldohuesos.jpg" width="400" height="200" class="card-img-top p-1" alt="caldo de huesos">
+                        <div class="col-12 col-sm-6 col-md-3 p-3">
+                            <article class="card">
+                                <img src="../multimedia/recetas/caldohuesos.jpg" width="400" height="200" class="card-img-top" alt="caldo de huesos">
             
                                 <div class="card-body">
                                     <h5 class="cardHeading">Caldo de huesos</h5>
                                     <div class="col-12 d-flex justify-content-center p-2">
-                                        <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                        <a href="" target="_blank" class="btn button">Ver receta</a>
                                     </div>
                                 </div>
                             </article>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-3">
-                            <article class="card p-2">
-                                <img src="../multimedia/recetas/calciohuevo.jpg" width="400" height="200" class="card-img-top p-1" alt="calcio de huevo">
+                        <div class="col-12 col-sm-6 col-md-3 p-3">
+                            <article class="card">
+                                <img src="../multimedia/recetas/calciohuevo.jpg" width="400" height="200" class="card-img-top" alt="calcio de huevo">
             
                                 <div class="card-body">
                                     <h5 class="cardHeading">Calcio en polvo</h5>
                                     <div class="col-12 d-flex justify-content-center p-2">
-                                        <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                        <a href="" target="_blank" class="btn button">Ver receta</a>
                                     </div>
                                 </div>
                             </article>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-3">
-                            <article class="card p-2">
-                                <img src="../multimedia/recetas/agualino.jpg" width="400" height="200" class="card-img-top p-1" alt="agua de lino">
+                        <div class="col-12 col-sm-6 col-md-3 p-3">
+                            <article class="card">
+                                <img src="../multimedia/recetas/agualino.jpg" width="400" height="200" class="card-img-top" alt="agua de lino">
             
                                 <div class="card-body">
                                     <h5 class="cardHeading">Agua de lino</h5>
                                     <div class="col-12 d-flex justify-content-center p-2">
-                                        <a href="" target="_blank" class="btn btn-success">Ver receta</a>
+                                        <a href="" target="_blank" class="btn button">Ver receta</a>
                                     </div>
                                 </div>
                             </article>
@@ -256,8 +265,8 @@
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
                         </div>
                     </form>
                 </div>

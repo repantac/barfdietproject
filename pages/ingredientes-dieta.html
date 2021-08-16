@@ -26,6 +26,9 @@
     
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
@@ -80,6 +83,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
+
+                            <li class="nav-item animate__animated animate__headShake animate__infinite">
+                                <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
+                            </li>
                         </ul>
                     </div> <!--Fin items de navegacion-->
                 </div>
@@ -88,10 +95,10 @@
         </header>
 
         <main>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 altura-a-b">
-                        <img src="../multimedia/ingredientes/portada.jpg"  width="1024" height="587" class="gradient-overlay img-fluid rounded mx-auto d-block" alt="ingredientes de la dieta barf">
+                    <div class="col-12 coverImage-3">
+                        <h1>¿Qué ingredientes lleva?</h1>
                     </div>
                 </div>
             </div>
@@ -99,26 +106,26 @@
             <section class="container altura-a-b ">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="headings">¿Qué ingredientes componen la Dieta B.A.R.F?</h2>
                         <p class="text">Hay muchos ingredientes para incluir en una dieta cruda para perros y gatos para cumplir con las cantidades recomendadas de nutrientes esenciales. Estos ingredientes incluyen carne de músculo cruda, órganos, huesos carnosos, verduras, semillas, nueces, frutas y mucho más. Recuerda que la idea es emular la alimentación real, y en la naturaleza ellos consumirían presas enteras (con todas sus partes, incluyendo el pelo), porque cada parte les aporta algo diferente, logrando asi un aporte nutricional completo.<br><br>La base está compuesta por carne semi-grasa, huesos y vísceras que, de preferencia, deben ser de consumo humano no priorirtario, pues garantizan un mayor aporte de nutrientes, y es materia prima ética y de bajo costo. A continuación se proponen algunos ejemplos de ingredientes que se pueden usar:</p>
                     </div>
                 </div>
             </section>
 
             <!--Acordeones-->
-            <div class="container altura-a-b"> 
+            <div class="container"> 
                 <div class="row">
                     <div class="col-12">
                         <div>
                             <h2 class="headings">Ración base</h2>
                         </div>
-                        <div class="accordion">
+                        
+                        <div class="altura-a-b">
                             <!--acordeon 1 carnes-->
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="carnes">
-                                    <button class="accordion-button text" type="button" data-bs-toggle="collapse" data-bs-target="#carnesCollapse" aria-expanded="true" aria-controls="carnesCollapse">Carnes</button>
-                                </h2>
-                                <div id="carnesCollapse" class="accordion-collapse collapse show" aria-labelledby="carnes">
+                                <h3 class="accordion-header" id="carnes">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#carnesCollapse" aria-expanded="true" aria-controls="carnesCollapse">Carnes</button>
+                                </h3>
+                                <div id="carnesCollapse" class="accordion-collapse collapse " aria-labelledby="carnes">
                                     <div class="accordion-body">
                                         <div class="row">
                                                 <div class="col-12 text">
@@ -136,9 +143,9 @@
 
                             <!--acordeon 2 huesos-->
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="huesos">
-                                    <button class="accordion-button collapsed text" type="button" data-bs-toggle="collapse" data-bs-target="#huesosCollapse" aria-expanded="false" aria-controls="huesosCollapse">Huesos</button>
-                                </h2>
+                                <h3 class="accordion-header" id="huesos">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#huesosCollapse" aria-expanded="false" aria-controls="huesosCollapse">Huesos</button>
+                                </h3>
                                 <div id="huesosCollapse" class="accordion-collapse collapse" aria-labelledby="huesos">
                                     <div class="accordion-body">
                                         <div class="row">
@@ -171,9 +178,9 @@
 
                             <!--acordeon 3 visceras-->
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="visceras">
-                                    <button class="accordion-button collapsed text" type="button" data-bs-toggle="collapse" data-bs-target="#viscerasCollapse" aria-expanded="false" aria-controls="viscerasCollapse">Vísceras</button>
-                                </h2>
+                                <h3 class="accordion-header" id="visceras">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#viscerasCollapse" aria-expanded="false" aria-controls="viscerasCollapse">Vísceras</button>
+                                </h3>
                                 <div id="viscerasCollapse" class="accordion-collapse collapse" aria-labelledby="visceras">
                                     <div class="accordion-body">
                                         <div class="row">
@@ -192,17 +199,18 @@
                     <!--Fin acordeón ración base-->
 
                     <!--Acordeón suplementos-->
-                    <div class="col-12 altura-a-b">
+                    <div class="col-12">
                         <div>
                             <h3 class="headings">Suplementos</h3>
                         </div>
-                        <div class="accordion">
+                        
+                        <div class="altura-a-b">
                         <!--Acordeón 1 fibra-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="fibra">
-                                    <button class="accordion-button text" type="button" data-bs-toggle="collapse" data-bs-target="#fibraCollapse" aria-expanded="true" aria-controls="fibraCollapse">Fibra</button>
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fibraCollapse" aria-expanded="true" aria-controls="fibraCollapse">Fibra</button>
                                 </h2>
-                                <div id="fibraCollapse" class="accordion-collapse collapse show" aria-labelledby="fibra">
+                                <div id="fibraCollapse" class="accordion-collapse collapse" aria-labelledby="fibra">
                                     <div class="accordion-body">
                                         <div class="row">
                                             <div class="col-12 text">
@@ -222,7 +230,7 @@
                             <!--Acordeón 2 calcio-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="calcio">
-                                    <button class="accordion-button collapsed text" type="button" data-bs-toggle="collapse" data-bs-target="#calcioCollapse" aria-expanded="false" aria-controls="calcioCollapse">Carbonato de calcio</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#calcioCollapse" aria-expanded="false" aria-controls="calcioCollapse">Carbonato de calcio</button>
                                 </h2>
                                 <div id="calcioCollapse" class="accordion-collapse collapse" aria-labelledby="calcio">
                                     <div class="accordion-body">
@@ -241,7 +249,7 @@
                             <!--Acordeon 3 omega 3-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="omegas">
-                                    <button class="accordion-button collapsed text" type="button" data-bs-toggle="collapse" data-bs-target="#omegasCollapse" aria-expanded="false" aria-controls="omegasCollapse">Omega 3</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#omegasCollapse" aria-expanded="false" aria-controls="omegasCollapse">Omega 3</button>
                                 </h2>
                                 <div id="omegasCollapse" class="accordion-collapse collapse" aria-labelledby="omegas">
                                     <div class="accordion-body">
@@ -286,8 +294,8 @@
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
                         </div>
                     </form>
                 </div>

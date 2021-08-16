@@ -1,13 +1,23 @@
-/*botones */
+/*boton*/
 .button {
     display: flex;
     place-content: center;
     text-decoration: none;
-    
-    .button__send--color {
-        background-color: $colorTitle;
-        color:$colorContrast;
-        box-shadow: $sombra
-    }
+    background: $colorHead;
+    border: transparent;
+    border-radius: 28px;
+    color: $colorContrast;
 }
-/*botones index*/
+
+
+/*boton asesoria*/
+.animate__animated.animate__headShake {
+    --animate-duration: 2s;
+}
+
+#navButton, #suscribeButton {
+    background-image: $colorHead;
+    border: transparent;
+    border-radius: 28px;
+    color: $colorContrast;
+}

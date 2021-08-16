@@ -55,13 +55,14 @@
 /*footer*/
 /*Menú de navegación*/
 .navbar {
-  background-color: #a3c0c4;
+  background-color: #484852;
   -webkit-box-shadow: 0 0 10px gray;
           box-shadow: 0 0 10px gray;
+  padding: 0;
 }
 
 .dropdown-menu {
-  background-color: #a3c0c4;
+  background-color: #484852;
 }
 
 .nav-item, .dropdown-item {
@@ -86,23 +87,150 @@
 /*fin menu de navegación*/
 /*Menú de navegación*/
 /*Portadas*/
-.gradient-overlay {
-  position: relative;
+.coverImage-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/definicion/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/definicion/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.gradient-overlayafter {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(red), to(blue));
-  background-image: linear-gradient(to bottom right, red, blue);
-  opacity: 0.5;
+.coverImage-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/beneficios/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/beneficios/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-/*Fin portadas*/
+.coverImage-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/ingredientes/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/ingredientes/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coverImage-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/calculadora/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/calculadora/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coverImage-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/recetas/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/recetas/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coverImage-6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/zen/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/zen/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coverImage-7 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/contacto/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/contacto/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coverImage-8 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(../multimedia/asesorias/portada.jpg) local center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../multimedia/asesorias/portada.jpg) local center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*Portadas*/
 /*Carrusel*/
 .home .carousel-item {
@@ -113,10 +241,9 @@
   z-index: 1;
 }
 
-.carousel-inner {
-  padding: 30px 0;
-}
-
+/*    .carousel-inner {
+        padding: 30px 0;
+    }*/
 .home .carousel-item:before {
   content: '';
   position: absolute;
@@ -226,28 +353,35 @@
 
 /*Fin carrusel*/
 /*Carrusel*/
-/*botones */
+/*boton*/
 .button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: center;
   text-decoration: none;
-}
-
-.button .button__send--color {
-  background-color: #FBC053;
+  background: radial-gradient(circle at 74.18% -16.45%, #ffc376 0, #f9b374 16.67%, #eba270 33.33%, #d8906c 50%, #c47f67 66.67%, #b17162 83.33%, #a1665e 100%);
+  border: transparent;
+  border-radius: 28px;
   color: white;
-  -webkit-box-shadow: 5px 5px 5px 5px gray;
-          box-shadow: 5px 5px 5px 5px gray;
 }
 
-/*botones index*/
+/*boton asesoria*/
+.animate__animated.animate__headShake {
+  --animate-duration: 2s;
+}
+
+#navButton, #suscribeButton {
+  background-image: radial-gradient(circle at 74.18% -16.45%, #ffc376 0, #f9b374 16.67%, #eba270 33.33%, #d8906c 50%, #c47f67 66.67%, #b17162 83.33%, #a1665e 100%);
+  border: transparent;
+  border-radius: 28px;
+  color: white;
+}
+
 /*Botones*/
 /*Cards terapia floral*/
 .card {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeffd1), color-stop(12.5%, #e0ffcf), color-stop(25%, #ceffca), color-stop(37.5%, #b8fec3), color-stop(50%, #9df2b9), color-stop(62.5%, #80e6b1), color-stop(75%, #64dcac), color-stop(87.5%, #47d5ac), to(#21d0af));
-  background: linear-gradient(180deg, #eeffd1 0, #e0ffcf 12.5%, #ceffca 25%, #b8fec3 37.5%, #9df2b9 50%, #80e6b1 62.5%, #64dcac 75%, #47d5ac 87.5%, #21d0af 100%);
+  background: gainsboro;
   border: transparent;
 }
 
@@ -270,28 +404,34 @@
 }
 
 /*tarjetas*/
-/*@import "definicion"; Pagina que es*/
-/*@import "beneficios"; Pagina beneficios*/
 /*Acordeon*/
 .accordion-button {
-  background-color: #a3c0c4;
-  opacity: 70%;
+  background: radial-gradient(circle at 74.18% -16.45%, #ffc376 0, #f9b374 16.67%, #eba270 33.33%, #d8906c 50%, #c47f67 66.67%, #b17162 83.33%, #a1665e 100%);
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  font-size: 1.5rem;
+  color: white;
 }
 
 /*Fin acordeon*/
 /*Pagina ingredientes*/
-/*@import "calculadora"; Pagina calculadora*/
-/*@import "recetas"; Pagina recetas*/
-/*@import "terapia"; Pagina terapia floral*/
-/*Formulario*/
-.background {
-  background-color: #a3c0c4;
-  border-radius: 10px;
-  width: 90%;
-  padding: 30px;
+/*Pagina contacto*/
+/*error 404*/
+.error404 {
+  color: white;
+  font-size: 5em;
+  padding: 50px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
 
-/*Fin formulario*/
+/*Fin error 404*/
+/*error 404*/
 /*catalogo asesoria en Contacto.html*/
 .catalogo {
   position: relative;
@@ -417,19 +557,7 @@
 }
 
 /*Fin catalogo asesoria en Contacto.html*/
-/*Pagina contacto*/
-/*error 404*/
-.error404 {
-  color: white;
-  font-size: 5em;
-  padding: 50px;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
-  text-align: center;
-}
-
-/*Fin error 404*/
-/*error 404*/
+/*asesoria*/
 * {
   margin: 0;
   padding: 0;
@@ -441,13 +569,14 @@
 
 /*Altura entre items*/
 .altura-a-b {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 /*titulos y texto*/
 .headings {
   font-family: "Quicksand", sans-serif;
   font-size: 2rem;
+  padding: 5px;
   color: #FBC053;
   text-align: center;
 }

@@ -1,16 +1,43 @@
 /*Portadas*/
-.gradient-overlay {
-    position: relative;
-
-    &after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(to bottom right, red, blue);
-        opacity: 0.5;
-    }
+@mixin bg-parametros {
+    background-size: cover;
+    height: 50vh;
+    color: $colorContrast;
+    font-family: $fontTitle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*Fin portadas*/
+
+.coverImage-1 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/definicion/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-2 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/beneficios/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-3 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/ingredientes/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-4 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/calculadora/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-5 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/recetas/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-6 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/zen/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-7 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/contacto/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}
+.coverImage-8 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../multimedia/asesorias/portada.jpg) local center no-repeat;
+    @include bg-parametros
+}

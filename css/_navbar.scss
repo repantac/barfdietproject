@@ -1,10 +1,11 @@
 /*Menú de navegación*/
 .navbar {
-    background-color: $colorHead;
+    background-color: #484852;
     box-shadow: 0 0 10px $colorshadow;
+    padding: 0;
 }
 .dropdown-menu {
-    background-color: $colorHead;
+    background-color: #484852;
 
 }
 .nav-item, .dropdown-item {

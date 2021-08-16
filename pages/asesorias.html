@@ -26,6 +26,9 @@
     
         <!--Linkeo Bootstrap/CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
     
         <!--Linkeo CSS local-->
         <link rel="stylesheet" href="../css/styles.css">
@@ -80,6 +83,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
+
+                            <li class="nav-item animate__animated animate__headShake animate__infinite">
+                                <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
+                            </li>
                         </ul>
                     </div> <!--Fin items de navegacion-->
                 </div>
@@ -89,7 +96,65 @@
 
 
         <main>
+            <!--Imagen de portada-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 coverImage-8">
+                        <h1>Asesorías</h1>
+                    </div>
+                </div>
+            </div>
+            <!--fin de imagen de portada-->
 
+            <!--inicio precios asesoria-->
+            <div class="container">
+                <div class="row">
+                    <div class="catalogo">
+                        <div class="col-12 altura-a-b">
+                            <h2 class="headings">¿Te interesa una asesoría personalizada?</h2>
+                        </div>
+
+                        <div class="panel precios-tabla">
+                            <div class="precios-plan">
+                                <img src="../multimedia/asesorias/foodicon.png" alt="plan de comida" width="120" height="120" class="precios-img">
+                                <h2 class="precio-header">Plan de alimentación</h2>
+                                <ul class="precio-cualidades">
+                                    <li class="precio-cualidades-item">Consulta 10 minutos para conocer a tu peludo</li>
+                                    <li class="precio-cualidades-item">Creamos juntos un plan de alimentación</li>
+                                    <li class="precio-cualidades-item">Ajustes al plan 1 mes después</li>
+                                </ul>
+                                <span class="precio-p">$8000</span>
+                                <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
+                            </div>
+                                            
+                            <div class="precios-plan">
+                                <img src="../multimedia/asesorias/fullplan.png" alt="plan completo" width="120" height="120" class="precios-img">
+                                <h2 class="precio-header">Plan <br> completo</h2>
+                                <ul class="precio-cualidades">
+                                    <li class="precio-cualidades-item">Revisión médica a domicilio de 1 hora</li>
+                                    <li class="precio-cualidades-item">Creamos juntos un plan de alimentación</li>
+                                    <li class="precio-cualidades-item">Dos consultas de control</li>
+                                </ul>
+                                <span class="precio-p">$20000</span>
+                                <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
+                            </div>
+                                            
+                            <div class="precios-plan">
+                                <img src="../multimedia/asesorias/pplan.png" alt="plan premium" width="120" height="120" class="precios-img">
+                                <h2 class="precio-header">Plan <br> premium</h2>
+                                <ul class="precio-cualidades">
+                                    <li class="precio-cualidades-item">Todo lo que recibes del plan completo</li>
+                                    <li class="precio-cualidades-item">Acompañamiento diario por whatsapp</li>
+                                    <li class="precio-cualidades-item">Regalo sorpresa</li>
+                                </ul>
+                                <span class="precio-p">$30000</span>
+                                <a href="#/" class="pricing-button is-featured btn btn-secondary">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--fin precios asesoria-->
         </main>
     
     <!--footer-->
@@ -115,8 +180,8 @@
                             <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="button col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg btn-success">Suscribirme</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
                         </div>
                     </form>
                 </div>
