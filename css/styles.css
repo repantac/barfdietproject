@@ -426,6 +426,10 @@
   padding: 30px;
 }
 
+textarea {
+  resize: none;
+}
+
 /*Fin formulario*/
 /*Pagina contacto*/
 /*error 404*/
