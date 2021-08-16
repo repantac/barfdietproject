@@ -419,6 +419,14 @@
 
 /*Fin acordeon*/
 /*Pagina ingredientes*/
+/*Formulario*/
+.background {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/*Fin formulario*/
 /*Pagina contacto*/
 /*error 404*/
 .error404 {
