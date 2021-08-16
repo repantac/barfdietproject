@@ -431,6 +431,14 @@ textarea {
 }
 
 /*Fin formulario*/
+.imgForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  padding: 10px;
+}
+
 /*Pagina contacto*/
 /*error 404*/
 .error404 {
