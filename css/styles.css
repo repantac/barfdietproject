@@ -52,6 +52,11 @@
   height: 50px;
 }
 
+.footer .socialContainer a {
+  text-decoration: none;
+  color: white;
+}
+
 /*footer*/
 /*Menú de navegación*/
 .navbar {
