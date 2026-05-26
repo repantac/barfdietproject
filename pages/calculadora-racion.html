@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Icono de pestaña del navegador-->
-    <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
+        <!--Icono de pestaña del navegador-->
+        <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
 
-    <!--Linkeo google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
+        <!--Link google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
 
-    <!-- META SEO -->
-    <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
-    <meta name="description" content="B.A.R.F fue creada para brindar información sobre la dieta BARF, que es cruda y biologicamente apropiada para mantener a nuestro compañero animal saludable y feliz.">
-    <meta name="ROBOTS" content="INDEX">
-    <meta name="language" content="Spanish">
-    <meta http-equiv="Contend-Languaje" content="ES">
-    <meta name="city" content="Santiago de Chile">
-    <meta name="country" content="Chile">
-    <meta name="resourse-type" content="Document">
-    <meta name="doc-type" content="Web Page">
-    
-    <!--Linkeo Bootstrap/CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- META SEO -->
+        <meta name="keywords" content="dieta, barf, alimentacion, natural, crudo, carne, huesos, suplementos,semillas, flores, bach, asesorias, recetas">
+        <meta name="description" content="B.A.R.F fue creada para brindar información sobre la dieta BARF, que es cruda y biologicamente apropiada para mantener a nuestro compañero animal saludable y feliz.">
+        <meta name="ROBOTS" content="INDEX">
+        <meta name="language" content="Spanish">
+        <meta http-equiv="Contend-Languaje" content="ES">
+        <meta name="city" content="Santiago de Chile">
+        <meta name="country" content="Chile">
+        <meta name="resourse-type" content="Document">
+        <meta name="doc-type" content="Web Page">
+        
+        <!--Link Bootstrap/CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!--WOW-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
-    <!--Linkeo CSS local-->
-    <link rel="stylesheet" href="../css/styles.css">
-    
-    <title>Calcula la ración • B.A.R.F</title>
+        <!--WOW-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <!--Link CSS local-->
+        <link rel="stylesheet" href="../css/styles.css">
+        
+        <title>Calcula la ración • B.A.R.F</title>
     </head>
 
     <body>
@@ -44,14 +44,12 @@
                     <!--Logo-->
                     <a class="navbar-brand logo" href="../index.html">
                         <img src="../multimedia/logo.png" alt="Logotipo B.A.R.F" width="220px" height="100px">
-                    </a> <!--Fin logo-->
+                    </a> 
 
                     <!--botón submenu-->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-botones" aria-controls="navbar-botones" aria-expanded="false" aria-label="abrir submenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!--Fin botón submenu-->
-                    
+                        <span class="navbar-toggler-icon"></span></button>
+        
                     <!--Items de navegacion-->
                     <div class="collapse navbar-collapse" id="navbar-botones">
                         <ul class="navbar-nav ms-auto">
@@ -88,150 +86,326 @@
                                 <a type="button" class="btn btn-lg" id="navButton" href="../pages/asesorias.html">Asesorías</a>
                             </li>
                         </ul>
-                    </div> <!--Fin items de navegacion-->
+                        <button id="darkModeToggle" class="btn btn-outline-warning btn-sm ms-3" aria-label="Cambiar modo de color">🌙</button>
+                    </div> 
                 </div>
             </nav>
-            <!--Fin menú de navegación-->
         </header>
 
-    <main>
-        <!--Imagen de portada-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 coverImage-4">
-                    <h1>¡Calcula la ración de tu peludo!</h1>
-                </div>
-            </div>
-        </div>
-        <!--fin de imagen de portada-->
-
-        <!--Contenido-->
-        <div class="container pt-5">
-            <div class="row">
-                <div class="col-12 ">
-                    <p class="text">Para poder administrar una dieta natural de forma adecuada, es necesario que tomemos en cuenta ciertas cosas como:</p>
-                </div>
-                <div class="col-12">
-                    <ol class="list-group list-group-numbered text">
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Condición corporal</div>
-                                <p>Se determina obsevando y palpando el cuerpo de tu peludo. Puede ser de bajo peso (costillas visibles, sin grasa palpable, curvatura abdominal visible), peso ideal (bien proporcionado, costillas palpables pero con grasa y no son visibles) o de sobrepeso (costillas que no se palpan facilmente por la grasa, no se ve la curvatura abdominal, abdomen abultado). Es necesario que determines la condición corporal de tu peludo porque de ella se parte para la ración</p>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Edad</div>
-                                <p>Los peludos que aún están en etapa de crecimiento tienen mayores requerimientos nutricionales que un animal en su etapa adulta.</p>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Estado reproductivo</div>
-                                <p>Si el animal está sin esterilizar requiere de más alimento que un animal que lo está.</p>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Grado de actividad física</div>
-                                <p>Si el animal es sedentario necesitará menos alimento que un animal muy activo. En ese sentido, si tu peludo convive en el interior o es de exteriores también influye en su estado físico y por tanto en la ración a calcular. Si el animal es sedentario, la ración corresponde al 3,0-3,5% por kilo de peso, es decir, entre 30-35gr de ración por peso; si el animal tiene actividad fisica media la ración corresponde al 3,5-4,0% por kilo de peso, es decir, entre 35-40gr de ración por peso, y si la actividad física es alta, la ración estaría entre el 4,0 y 5,0% de su peso, que equivalen a 40-50gr por kilo de peso.</p>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Clima</div>
-                                <p>Si tú y tu peludo conviven en un área con clima estacional, es posible que debas considerarlo para la ración. Cuando es temporada de invierno, el gasto energético es mayor para que tu peludo pueda conservar el calor corporal y mantenerse activo, por lo que la ración aumenta y se debe re-calcular. En temporada de calor, por el contrario, se requiere de menos alimento porque el gasto energético es menor. </p>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-
-        <section class="container">
-            <div class="row">
-                <div>
-                    <p class="text">Es muy importante que antes de decidir darle la ración a tu peludo consultes con un veterinario calificado en el tema. Si bien todos los datos suministrados acá sirven de aproximados para iniciar el proceso de transición, es cierto que cada animalito es diferente y tiene necesidades específicas que, si no cumplimos debidamente, pueden llevar a un proceso de enfermedad que se puede evitar con el apoyo adecuado. Teniendo eso en cuenta, te presentamos aqui unos valores estimados de lo que debe conformar la ración de tu peludo, para que vayas haciéndote a una idea de cómo debería ser.</p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <h3 class="headings text-center">Porcentajes de ración base</h3>
-                    <img src="../multimedia/calculadora/racionbase.png" class="img-fluid rounded mx-auto d-block" width="350" height="auto" alt="infografia porcentajes racion base">
-                </div>
-                <div class="col-12 col-md-6">
-                    <h3 class="headings text-center">Racion aproximada de suplementos</h3>
-                    <img src="../multimedia/calculadora/suplementos.png" class="img-fluid rounded mx-auto d-block" width="350" height="auto" alt="infografia cantidades suplementos">
-                </div>
-            </div>
-        </section>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="col-12 text">
-                        <p>Si tienes claras las consideraciones previas, te recomiendo ver estos dos video-tutoriales hechos por Jessica Da Silva, para que puedas calcular el peso de la ración diaria de tu perro o gato. No olvides fijarte con base a todo lo anterior en los porcentajes de cada producto que debes administrar </p>
+        <main>
+            <!-- Portada -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 coverImage-4">
+                        <h1>¡Calcula la ración de tu peludo!</h1>
                     </div>
                 </div>
             </div>
-
-            <div class="row altura-a-b">
-                <div class="col-12 col-sm-6 pb-5">
-                    <iframe width="350" height="290" src="https://www.youtube.com/embed/s3rGBs7UwhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            <!-- Intro corta -->
+            <section class="container pt-5 pb-3">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text text-center">
+                        <p>Para calcular la ración correcta de tu gato necesitas conocer su <strong>condición corporal</strong>, <strong>edad</strong>, <strong>peso ideal</strong>, <strong>actividad</strong> y <strong>estado reproductivo</strong>. Estos valores determinan el factor de cálculo adecuado para él o ella.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 pb-5">
-                    <iframe width="350" height="290" src="https://www.youtube.com/embed/sS9dI72dRFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        
+            <!-- Imagen condición corporal -->
+            <section class="container pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h3 class="headings text-center mb-3">¿Cómo determinar la condición corporal?</h3>
+                        <img src="../multimedia/calculadora/condicioncorporal.png" class="img-fluid rounded mx-auto d-block" alt="guía condición corporal felina">
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Calculadora -->
+            <section class="container pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+        
+                        <div class="card shadow-sm border-0 p-4" style="border-radius: 20px;">
+                            <h3 class="headings text-center mb-4">Calculadora de ración diaria</h3>
+        
+                            <!-- Pregunta 1: Edad -->
+                            <div class="mb-4">
+                                <label class="form-label fw-bold">¿Cuántos meses/años tiene tu gato?</label>
+                                <div class="d-flex gap-3 flex-wrap">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="edadTipo" id="esCachorro" value="cachorro" onchange="mostrarOpcionesEdad()">
+                                        <label class="form-check-label" for="esCachorro">Cachorro (menos de 1 año)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="edadTipo" id="esAdulto" value="adulto" checked onchange="mostrarOpcionesEdad()">
+                                        <label class="form-check-label" for="esAdulto">Adulto (1 año o más)</label>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Opciones cachorro -->
+                            <div id="opcionesCachorro" class="mb-4" style="display:none;">
+                                <label for="mesesCachorro" class="form-label fw-bold">¿Cuántos meses tiene?</label>
+                                <select class="form-select" id="mesesCachorro">
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="0.10">2 meses</option>
+                                    <option value="0.09">3 meses</option>
+                                    <option value="0.08">4 meses</option>
+                                    <option value="0.07">5 meses</option>
+                                    <option value="0.06">6 - 7 meses</option>
+                                    <option value="0.045">8 - 10 meses</option>
+                                    <option value="0.035">11 - 12 meses</option>
+                                </select>
+                            </div>
+        
+                            <!-- Opciones adulto -->
+                            <div id="opcionesAdulto" style="display:block;">
+        
+                                <!-- Condición corporal -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-bold">¿Cuál es su condición corporal?</label>
+                                    <select class="form-select" id="condicionCorporal">
+                                        <option value="">Selecciona una opción</option>
+                                        <option value="1">1 - Muy delgado (costillas visibles, sin grasa palpable)</option>
+                                        <option value="2">2 - Bajo peso (costillas palpables, poca grasa)</option>
+                                        <option value="3">3 - Ideal (bien proporcionado, costillas palpables)</option>
+                                        <option value="4">4 - Sobrepeso (costillas difíciles de palpar)</option>
+                                        <option value="5">5 - Obesidad (costillas no palpables)</option>
+                                    </select>
+                                </div>
+        
+                                <!-- Actividad -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-bold">¿Cuál es su nivel de actividad?</label>
+                                    <select class="form-select" id="actividad">
+                                        <option value="">Selecciona una opción</option>
+                                        <option value="sedentario">Sedentario (menos de 1 hora de actividad al día)</option>
+                                        <option value="media">Actividad media (1 a 2 horas al día)</option>
+                                        <option value="activo">Muy activo (más de 2 horas al día)</option>
+                                    </select>
+                                </div>
+        
+                                <!-- Estado reproductivo -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-bold">¿Está esterilizado/a?</label>
+                                    <div class="d-flex gap-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="reproductivo" id="castrado" value="castrado">
+                                            <label class="form-check-label" for="castrado">Sí, está castrado/a</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="reproductivo" id="entero" value="entero">
+                                            <label class="form-check-label" for="entero">No, es entero/a</label>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+                            <!-- Peso ideal (aparece siempre después de elegir edad) -->
+                            <div id="campoPeso" class="mb-4" style="display:block;">
+                                <label for="pesoIdeal" class="form-label fw-bold">¿Cuál es su peso ideal en kilos?</label>
+                                <input type="number" class="form-control" id="pesoIdeal" placeholder="Ej: 4.3" min="0.1" step="0.1">
+                                <div class="form-text">Si no sabes el peso ideal, usa el peso actual como referencia.</div>
+                            </div>
+        
+                            <!-- Botón calcular -->
+                            <div class="d-grid mt-2" id="botonCalcular" style="display:grid;">
+                                <button class="btn btn-lg button" onclick="calcularRacion()" style="border-radius: 12px;">
+                                    🐾 Calcular ración
+                                </button>
+                            </div>
+        
+                            <!-- Resultado -->
+                            <div id="resultado" class="mt-4" style="display:none;">
+                                <hr>
+                                <h5 class="headings text-center mb-3">Resultado</h5>
+        
+                                <div class="alert text-center mb-4" id="alertaRacion" style="border-radius:12px; background-color: #FBC053; color: #333; border:none;">
+                                    <span id="textoRacion" class="fw-bold fs-5"></span>
+                                </div>
+        
+                                <h6 class="fw-bold mb-3">Desglose de ingredientes diarios:</h6>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered text-center align-middle">
+                                        <thead>
+                                            <tr style="background-color: #FBC053; color: #333;">
+                                                <th>Ingrediente</th>
+                                                <th>Porcentaje</th>
+                                                <th>Cantidad (grs)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tablaIngredientes">
+                                        </tbody>
+                                    </table>
+                                </div>
+        
+                                <p class="text-center mt-3">
+                                    <small>⚠️ Estos valores son una estimación de referencia. Consulta siempre con un veterinario especializado en alimentación natural antes de iniciar la dieta.</small>
+                                </p>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Script calculadora -->
+            <script>
+                // Mostrar campos según edad elegida
+                function mostrarOpcionesEdad() {
+                    const tipo = document.querySelector('input[name="edadTipo"]:checked').value;
+                    const campoPeso = document.getElementById('campoPeso');
+                    const boton = document.getElementById('botonCalcular');
+        
+                    if (tipo === 'cachorro') {
+                        document.getElementById('opcionesCachorro').style.display = 'block';
+                        document.getElementById('opcionesAdulto').style.display = 'none';
+                    } else {
+                        document.getElementById('opcionesCachorro').style.display = 'none';
+                        document.getElementById('opcionesAdulto').style.display = 'block';
+                    }
+        
+                    campoPeso.style.display = 'block';
+                    boton.style.display = 'grid';
+                }
+        
+                // Determinar factor para adultos
+                function determinarFactorAdulto(condicion, actividad, reproductivo) {
+                    // Bajo peso o muy activo o entero → factor alto
+                    if (condicion <= 2 || actividad === 'activo' || reproductivo === 'entero') {
+                        return 0.045; // 4.5% (medio entre 4-5%)
+                    }
+                    // Sobrepeso u obesidad → factor bajo
+                    if (condicion >= 4 || actividad === 'sedentario') {
+                        return 0.0325; // 3.25% (medio entre 3-3.5%)
+                    }
+                    // Peso ideal, actividad media
+                    return 0.0375; // 3.75% (medio entre 3.5-4%)
+                }
+        
+                // Calcular y mostrar resultado
+                function calcularRacion() {
+                    const tipo = document.querySelector('input[name="edadTipo"]:checked')?.value;
+                    const peso = parseFloat(document.getElementById('pesoIdeal').value);
+        
+                    // Validaciones básicas
+                    if (!tipo) { alert('Por favor selecciona si es cachorro o adulto.'); return; }
+                    if (!peso || peso <= 0) { alert('Por favor ingresa un peso válido.'); return; }
+        
+                    let factor;
+        
+                    if (tipo === 'cachorro') {
+                        factor = parseFloat(document.getElementById('mesesCachorro').value);
+                        if (!factor) { alert('Por favor selecciona la edad del cachorro.'); return; }
+                    } else {
+                        const condicion = parseInt(document.getElementById('condicionCorporal').value);
+                        const actividad = document.getElementById('actividad').value;
+                        const reproductivo = document.querySelector('input[name="reproductivo"]:checked')?.value;
+                        if (!condicion || !actividad || !reproductivo) { alert('Por favor completa todos los campos.'); return; }
+                        factor = determinarFactorAdulto(condicion, actividad, reproductivo);
+                    }
+        
+                    // Cálculo principal
+                    const pesoEnGramos = peso * 1000;
+                    const racionTotal = Math.round(pesoEnGramos * factor);
+        
+                    // Desglose ingredientes
+                    const ingredientes = [
+                        { nombre: '🦴 Hueso carnoso de pollo', porcentaje: 40 },
+                        { nombre: '🥩 Carne semigrasa', porcentaje: 30 },
+                        { nombre: '❤️ Corazón', porcentaje: 10 },
+                        { nombre: '🫀 Hígado', porcentaje: 10 },
+                        { nombre: '🫁 Otras vísceras', porcentaje: 10 },
+                    ];
+        
+                    // Mostrar resultado
+                    document.getElementById('textoRacion').textContent =
+                        `La ración diaria estimada es de ${racionTotal} gramos`;
+        
+                    const tbody = document.getElementById('tablaIngredientes');
+                    tbody.innerHTML = '';
+                    ingredientes.forEach(item => {
+                        const cantidad = Math.round(racionTotal * item.porcentaje / 100);
+                        tbody.innerHTML += `
+                            <tr>
+                                <td>${item.nombre}</td>
+                                <td>${item.porcentaje}%</td>
+                                <td><strong>${cantidad} grs</strong></td>
+                            </tr>
+                        `;
+                    });
+        
+                    document.getElementById('resultado').style.display = 'block';
+                    document.getElementById('resultado').scrollIntoView({ behavior: 'smooth' });
+                }
+            </script>
+        </main>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 p-2">
+                        <h3 class="footerTitles">Redes sociales</h3>
+                        <p class="footerText">Creado por: Rosa Panta</p>
+                        <ul class="socialContainer">
+                            <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
+                            <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
+                            <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
+                            <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4 p-2">
+                        <h3 class="footerTitles">Newsletter</h3>
+                        <p class="footerText">Suscríbete para recibir más información de nosotros</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
+                                <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-md-4 p-2">
+                        <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
+                            <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
+                            <div class="maps">
+                                <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <p class="footerText">
+                                Clínica Veterinaria Heyne
+                                <br>
+                                Teléfono: +56 2 255 588 28
+                            </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main><!--fin contenido-->
+        </footer>
 
-    <!--footer-->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 p-2">
-                    <h3 class="footerTitles">Redes sociales</h3>
-                    <p class="footerText">Creado por: Rosa Panta</p>
-                    <ul class="socialContainer">
-                        <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/instagram.png" alt="Logo Instagram" class="socialItem footerText"></a>Mi Instagram</li>
-                        <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/facebook.png" alt="Logo Facebook" class="socialItem footerText"></a>Mi Facebook</li>
-                        <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/twitter.png" alt="Logo Twitter" class="socialItem footerText"></a>Mi Twitter</li>
-                        <li><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="../multimedia/footer/whatsapp.png" alt="Logo Whatsapp" class="socialItem footerText"></a>Mi Whatsapp</li>
-                    </ul>
-                </div>
-
-                <div class="col-12 col-md-4 p-2">
-                    <h3 class="footerTitles">Newsletter</h3>
-                    <p class="footerText">Suscríbete para recibir más información de nosotros</p>
-                    <form>
-                        <div class="mb-3">
-                            <label for="inputEmail1" class="form-label footerText">Tu e-mail</label>
-                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-lg" id="suscribeButton">Suscribirme</button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="col-12 col-md-4 p-2">
-                    <h3 class="footerTitles">¿Deseas información de un profesional? </h3>
-                        <p class="footerText">Mi clínica veterinaria favorita se encuentra aquí:</p>
-                        <div class="maps">
-                            <iframe title="direccion google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5326560082563!2d-70.65770488480035!3d-33.461480380770716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c510e9e36811%3A0x1f076e848f38b4bf!2sCalle%20San%20Ignacio%20de%20Loyola%201205%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1626106002349!5m2!1ses-419!2scl" width="70%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                        <p class="footerText">
-                            Clínica Veterinaria Heyne
-                            <br>
-                            Teléfono: +56 2 255 588 28
-                        </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--fin Footer-->
-
-    <!--Links Popper/Bootstrap JS separados-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+        <!--Link Bootstrap/JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
+        <!-- Script modo oscuro -->
+        <script>
+            const toggle = document.getElementById('darkModeToggle');
+            const html = document.documentElement;
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            html.setAttribute('data-bs-theme', savedTheme);
+            toggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+            toggle.addEventListener('click', () => {
+                const current = html.getAttribute('data-bs-theme');
+                const next = current === 'dark' ? 'light' : 'dark';
+                html.setAttribute('data-bs-theme', next);
+                toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+                localStorage.setItem('theme', next);
+            });
+        </script>
+    </body>
 </html>

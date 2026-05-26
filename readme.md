@@ -1,32 +1,50 @@
-# B.A.R.F Diet project
+# B.A.R.F - Aliméntalos Naturalmente
 
-****Proyecto: B.A.R.F "Aliméntalos naturalmente"****
+Sitio web multipágina sobre la dieta BARF (Biologically Appropriate Raw Food), un modelo de alimentación natural y cruda para mascotas.
 
+Desarrollado como proyecto de portafolio para el programa de Tecnología en Desarrollo de Software (UNAD).
 
-La página está hecha con amor para mostrar mi pasion por la nutrición adecuada de los animales de compañía. Aquí trato de mostrar todo lo referente a la dieta B.A.R.F con un propósito únicamente informativo.
+---
 
-Este repositorio se inicia como parte del desafio 15 del curso de desarrollo web de Coder House. La idea de este desafío es comprender la forma de trabajo con git local y Github y saber usar de forma correcta los procesos de pull, push, commit y otros.
+## Tecnologias utilizadas
 
-Para este repositorio se hicieron dos commit principales:
+- HTML5
+- CSS3 / Sass
+- Bootstrap 5.3
+- JavaScript
 
-   - Commit 1. Subir la pagina tal cual como venia del desafío 13: Este fue simple ya que solo seguí los pasos indicados en la clase. Aquí surgió un problema ya que a GitHub "no le gustaron" los espacios en los nombres de algunas fotos, y esto ocasionó que hubiera fallas al momento de navegarla.
+---
 
-   - Commit 2. Cambiar los nombres de archivos e imágenes para que tuvieran solo minúsculas y texto sin espacios, y modificar tamaños de imágenes y videos para hacerlas responsive. Los cambios más evidentes con respecto al commit inicial están en el footer. (ícono de instagram), y en las páginas: qué es (imagen final responsive), ¡calcula la ración! (tamaños de videos), recetas (reemplazo de los nombres de las imágenes sin mayusculas ni espacios).
+## Funcionalidades
 
-   - Por ultimo modifiqué el archivo README en GitHub (repositorio remoto) y por medio de pull sincronicé la carpeta con Git (repositorio local)
+- Navegacion multipagina con menu desplegable
+- Calculadora interactiva de racion diaria para gatos
+- Recetas con ventanas emergentes (modales)
+- Modo oscuro con persistencia entre paginas
+- Diseño responsivo para dispositivos moviles y escritorio
 
-Esta pagina fue desarrollada con HTML+CSS+Boostrap. Se tiene como finalidad aprender los conceptos iniciales de desarrollo web usando los componentes básicos de cada una de las tecnologias.
+---
 
-Se usaron componentes como :
+## Estructura del proyecto
 
-    Carruseles
-    Barras de navegacion
-    Botones
-    Cards
-    Dropdowns
-    Acordeones
-    Uso de transformaciones con CSS
+barfdietproject/
+├── index.html
+├── pages/
+│   ├── calculadora-racion.html
+│   ├── recetas-dieta.html
+│   ├── definicion-barf.html
+│   ├── beneficios-barf.html
+│   ├── ingredientes-dieta.html
+│   ├── terapia-floral.html
+│   ├── asesorias.html
+│   └── contacto.html
+├── css/
+│   └── styles.scss
+└── multimedia/
 
-Tambien se agregaron y modificaron componentes de los archivos y el codigo para aprovechar el SEO.
+---
 
-Documentacion v1.
+## Autora
+
+Rosa Panta
+Estudiante de Tecnologia en Desarrollo de Software - UNAD
